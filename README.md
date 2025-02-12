@@ -7,6 +7,7 @@ git clone https://github.com/JacobParent7/FSAE_ELECTRONICS.git
 MAKE EDITS TO LOCAL COPY
 
 INSIDE GIT BASH TERMINAL
+
 cd FSAE_ELECTRONICS/
 
 git checkout -b "Branch Name"
