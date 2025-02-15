@@ -23,5 +23,3 @@ git push -u origin "Branch Name"
 DELETE LOCAL COPY
 
 REPEAT
-
-TEST COMMIT
