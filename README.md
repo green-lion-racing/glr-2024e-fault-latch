@@ -1,7 +1,9 @@
 Download git
+
 Create a token so you can pull the repository in git bash
 
 INSIDE GIT BASH TERMINAL
+
 git clone https://github.com/JacobParent7/FSAE_ELECTRONICS.git
 
 MAKE EDITS TO LOCAL COPY
