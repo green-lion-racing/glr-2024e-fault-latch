@@ -23,3 +23,20 @@ git push -u origin "Branch Name"
 DELETE LOCAL COPY
 
 REPEAT
+
+
+
+
+TO MERGE:
+
+go to branches tab
+
+go to branches that you push
+
+make a pull request
+
+go into pull request
+
+marge if no issues
+
+delete branch 
