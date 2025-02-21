@@ -5344,6 +5344,25 @@
 		)
 		(uuid b945a723-3c03-4255-8312-a7a9c289f989)
 	)
+	(text_box "-PLACE VALUES FOR COMPONENETS\n-USE SIMULATION AND VERIFY\n"
+		(exclude_from_sim no)
+		(at 33.02 193.675 0)
+		(size 89.535 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "66eee606-a079-40ea-97a3-6ea6fdb1d986")
+	)
 	(text "Comparator (4 circuit)\n"
 		(exclude_from_sim no)
 		(at 222.25 115.824 0)
@@ -5373,6 +5392,16 @@
 			)
 		)
 		(uuid "34bc1109-c257-487e-ac29-7dd81d6a8ea5")
+	)
+	(text "-AT FAULT - OUTPUT 0V\n"
+		(exclude_from_sim no)
+		(at 336.296 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "366ac521-db34-4776-b571-990e6c5a90ad")
 	)
 	(text "Voltage dividers. Set output of them to 0.45V, or threshold of operation of break sensor/throttle\n"
 		(exclude_from_sim no)
@@ -5406,9 +5435,9 @@
 		)
 		(uuid "8d1482f7-3319-4127-9d2d-f578ca6a5fb2")
 	)
-	(text "DC-DC Converter ; 12V-5V\n"
+	(text "DC-DC Converter ; 12V-5V ; 500mA\n"
 		(exclude_from_sim no)
-		(at 181.864 46.228 0)
+		(at 186.69 46.736 0)
 		(effects
 			(font
 				(size 1.27 1.27)

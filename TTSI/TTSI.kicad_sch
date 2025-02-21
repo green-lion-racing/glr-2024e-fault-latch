@@ -3579,9 +3579,9 @@
 		)
 		(uuid "b22cc6ee-9e91-41dd-a2dd-997f38f7444f")
 	)
-	(text "NEED DC/DC CONVERTER"
+	(text "-NEED DC/DC CONVERTER (R-78E5.0-0.5)\n-USE 0805 LED (SURFACE MOUNTED)\n-PICK CONNECTORS\n-spec sizes of components\n"
 		(exclude_from_sim no)
-		(at 86.106 132.588 0)
+		(at 92.456 189.484 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3625,7 +3625,6 @@
 	)
 	(label "BMS_LV"
 		(at 91.44 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3636,7 +3635,6 @@
 	)
 	(label "IMD_LV"
 		(at 149.86 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3647,7 +3645,6 @@
 	)
 	(label "IMD_LV"
 		(at 138.43 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3658,7 +3655,6 @@
 	)
 	(label "BMS_LV"
 		(at 149.86 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3669,7 +3665,6 @@
 	)
 	(label "CLOCK"
 		(at 231.14 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3680,7 +3675,6 @@
 	)
 	(label "THRESH"
 		(at 207.01 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3691,7 +3685,6 @@
 	)
 	(label "THRESH"
 		(at 160.02 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3702,7 +3695,6 @@
 	)
 	(label "THRESH"
 		(at 218.44 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3713,7 +3705,6 @@
 	)
 	(label "CLOCK"
 		(at 207.01 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6527,7 +6518,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN_LED"
 			(at 205.74 82.8674 90)
 			(effects
 				(font
@@ -7283,7 +7274,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED_LED"
 			(at 287.02 56.1974 90)
 			(effects
 				(font
