@@ -427,8 +427,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "CONNECTOR"
+    ],
+    "pinned_symbol_libs": [
+      "2025-02-25_23-37-05",
+      "CONNECTOR"
+    ]
   },
   "meta": {
     "filename": "RML.kicad_pro",
