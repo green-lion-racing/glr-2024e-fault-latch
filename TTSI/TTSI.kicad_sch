@@ -5126,7 +5126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 177.546 53.594 90)
 			(effects
 				(font
@@ -5419,7 +5419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 266.446 54.864 90)
 			(effects
 				(font
@@ -5751,7 +5751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 318.516 124.714 90)
 			(effects
 				(font
@@ -5827,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.914 166.116 90)
 			(effects
 				(font
@@ -6168,7 +6168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 161.29 72.39 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "641964-1"
+		(property "Datasheet" "https://www.te.com/usa-en/product-641964-1.datasheet.pdf"
 			(at 328.93 58.42 0)
 			(effects
 				(font
@@ -7127,7 +7127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "641964-1"
+		(property "Datasheet" "https://www.te.com/usa-en/product-641964-1.datasheet.pdf"
 			(at 247.65 76.2 0)
 			(effects
 				(font
@@ -7188,7 +7188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 331.47 118.11 0)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12v"
 			(at 328.93 43.18 0)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 250.19 63.5 0)
 			(effects
 				(font
@@ -7684,7 +7684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 128.016 58.674 90)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 159.766 53.594 90)
 			(effects
 				(font
@@ -7841,7 +7841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 278.13 163.83 0)
 			(effects
 				(font
@@ -8412,7 +8412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 237.236 80.264 90)
 			(effects
 				(font
@@ -8624,7 +8624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 179.07 66.04 0)
 			(effects
 				(font
@@ -8743,7 +8743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "641964-1"
+		(property "Datasheet" "https://www.te.com/usa-en/product-641964-1.datasheet.pdf"
 			(at 30.48 111.76 0)
 			(effects
 				(font
@@ -9027,7 +9027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -9036,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -9061,6 +9061,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC#" "C3030991"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9394,7 +9402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "641964-1"
+		(property "Datasheet" "https://www.te.com/usa-en/product-641964-1.datasheet.pdf"
 			(at 54.61 111.76 0)
 			(effects
 				(font
@@ -9522,7 +9530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -9628,7 +9636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 338.074 180.086 90)
 			(effects
 				(font
@@ -9699,7 +9707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12v"
 			(at 247.65 43.18 0)
 			(effects
 				(font
