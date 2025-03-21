@@ -733,169 +733,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3175,19 +3012,9 @@
 		)
 		(uuid "aacd1910-c2c4-4e28-8a27-9d04be050a04")
 	)
-	(text "0 - 352.8 V"
+	(text "Parth 3/21/2025\n-Chose values of  to make 555 timer at 5Hz. \n-Removed 12V flag on the bunny ear LED connector after logic gate. \n	Will connect 12V to led directly from harness for now. \n-Typos\n-Add symbols properly\n"
 		(exclude_from_sim no)
-		(at 30.734 134.112 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b08c6dfb-1bdc-4d8d-8c1a-8f7722041108")
-	)
-	(text "Parth 3/21/2025\n-Chose values of  to make 555 timer at 5Hz. \n-Removed 12V flag on the bunny ear LED connector after logic gate. \n	Will connect 12V to led directly from harness for now. \n\n"
-		(exclude_from_sim no)
-		(at 370.332 57.658 0)
+		(at 19.812 211.074 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3226,16 +3053,6 @@
 			(href "https://www.electronics-tutorials.ws/waveforms/555_oscillator.html")
 		)
 		(uuid "d5c6100b-e095-441a-9eb2-a5921a00d626")
-	)
-	(text "0 - 352.8 V"
-		(exclude_from_sim no)
-		(at 52.324 134.112 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f26a74cd-87bf-4c85-a24b-8be60fc47508")
 	)
 	(text_box "LEVEL SHIFTERS + IMD LIGHT"
 		(exclude_from_sim no)
@@ -3302,7 +3119,7 @@
 	)
 	(text_box "12V\nBMS - ACTIVE LOW\nIMD - ACTIVE HIGH"
 		(exclude_from_sim no)
-		(at 19.05 38.1 0)
+		(at 20.32 38.1 0)
 		(size 82.55 54.61)
 		(margins 1.0541 1.0541 1.0541 1.0541)
 		(stroke
@@ -3323,7 +3140,7 @@
 	)
 	(text_box "Please enter all mistakes and the how/why did you fix them.\n\n- Find out if bunny ears are +5V or +12V\n\nPCB NOTES\n- Set up constraints according to https://jlcpcb.com/capabilities/pcb-capabilities\n- Remember to set up board edges. Try to use even number like 100x100 or something (Draw lines on edge cuts layer)\n- Bypass caps take priority, place as close as possible to power pins (but not too close)\n- Place regulator close to +12V conn\n- Use power puddles and 0.5mm traces for distriuting power\n- Use 0.3mm traces for signals\n- Place solid uninterrupted GND plane on bottom side\n- Place GND plan on top as well "
 		(exclude_from_sim no)
-		(at 19.05 176.53 0)
+		(at 19.05 172.72 0)
 		(size 124.46 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3450,12 +3267,6 @@
 		(uuid "855f705b-25f1-425c-aeb8-7c7d73fc1d8b")
 	)
 	(junction
-		(at 62.23 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9da15cc3-2cd9-4b41-9e79-bee119fcb40c")
-	)
-	(junction
 		(at 314.96 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3472,12 +3283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d81f9e40-f848-40fb-bbdc-eae785e4993b")
-	)
-	(junction
-		(at 50.8 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b365ec-fc3d-40da-80f6-0cc0b303f28a")
 	)
 	(junction
 		(at 328.93 173.99)
@@ -3840,6 +3645,16 @@
 			(type default)
 		)
 		(uuid "4317bb0a-b673-4645-9544-9329f4a62007")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 50.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ff9191-99fb-42a8-8b5a-53ab13443a41")
 	)
 	(wire
 		(pts
@@ -4313,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 57.15) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d01645-1788-476a-9242-e29ce5b8bbb2")
+	)
+	(wire
+		(pts
 			(xy 158.75 46.99) (xy 167.64 46.99)
 		)
 		(stroke
@@ -4353,16 +4178,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf81f99-6f23-4867-b52b-1eed523c2885")
-	)
-	(wire
-		(pts
 			(xy 339.09 189.23) (xy 347.98 189.23)
 		)
 		(stroke
@@ -4400,16 +4215,6 @@
 			(type default)
 		)
 		(uuid "b3790da7-965e-45b5-ac75-c2588bc7a6e5")
-	)
-	(wire
-		(pts
-			(xy 49.53 57.15) (xy 50.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b466d108-e74b-483b-8da3-6221e2d45d46")
 	)
 	(wire
 		(pts
@@ -4483,16 +4288,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 69.85 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf75c40a-4e1f-44d9-8d6a-58e802dd63a4")
-	)
-	(wire
-		(pts
 			(xy 118.11 73.66) (xy 119.38 73.66)
 		)
 		(stroke
@@ -4560,16 +4355,6 @@
 			(type default)
 		)
 		(uuid "ce144464-aadb-4f67-8dd0-afa33d07f7ff")
-	)
-	(wire
-		(pts
-			(xy 49.53 59.69) (xy 62.23 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce696342-9ff3-4fe5-8d13-ce14473c95c6")
 	)
 	(wire
 		(pts
@@ -6991,7 +6776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "641964-1_TYC"
+		(property "Footprint" ""
 			(at 328.93 58.42 0)
 			(effects
 				(font
@@ -7128,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "641964-1_TYC"
+		(property "Footprint" ""
 			(at 247.65 76.2 0)
 			(effects
 				(font
@@ -7518,83 +7303,6 @@
 			(project "TTSI 4"
 				(path "/8333e4c5-977f-459c-982e-d2d7d024e7e8"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 44.45 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "867ca7b6-2b45-418f-a938-c214624ecdd6")
-		(property "Reference" "J101"
-			(at 46.228 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 45.085 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 44.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" ""
-			(at 44.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64dbe725-9c33-443f-82b5-a2be51bddad3")
-		)
-		(pin "2"
-			(uuid "70721fea-c482-498e-b262-ba3b359bc6b1")
-		)
-		(instances
-			(project "TTSI 4"
-				(path "/8333e4c5-977f-459c-982e-d2d7d024e7e8"
-					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -8677,7 +8385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "641964-1_TYC"
+		(property "Footprint" ""
 			(at 30.48 111.76 0)
 			(effects
 				(font
@@ -9335,7 +9043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "641964-1_TYC"
+		(property "Footprint" ""
 			(at 54.61 111.76 0)
 			(effects
 				(font
