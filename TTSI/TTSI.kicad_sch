@@ -3185,6 +3185,17 @@
 		)
 		(uuid "b08c6dfb-1bdc-4d8d-8c1a-8f7722041108")
 	)
+	(text "Parth 3/21/2025\n-Chose values of  to make 555 timer at 5Hz. \n-Removed 12V flag on the bunny ear LED connector after logic gate. \n	Will connect 12V to led directly from harness for now. \n\n"
+		(exclude_from_sim no)
+		(at 370.332 57.658 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "c62cf8ac-8c47-442b-a688-b2a04ca5af41")
+	)
 	(text "Ok these level shifters are shifting these voltages to \n5v for the OR GATE logic seen in the logic box\n"
 		(exclude_from_sim no)
 		(at 132.08 33.02 0)
@@ -3247,7 +3258,7 @@
 		)
 		(uuid "173fcb99-1042-4a29-9f61-ed18ee181921")
 	)
-	(text_box "ASTALE 555 - 50% DUTY - 2-5Hz"
+	(text_box "ASTABLE 555 - 50% DUTY - 2-5Hz"
 		(exclude_from_sim no)
 		(at 274.32 143.51 0)
 		(size 78.74 68.58)
@@ -5819,7 +5830,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "15k"
 			(at 334.01 166.37 90)
 			(effects
 				(font
@@ -7264,73 +7275,6 @@
 			(project "TTSI 4"
 				(path "/8333e4c5-977f-459c-982e-d2d7d024e7e8"
 					(reference "Q106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 328.93 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d172d3e-0638-48de-a2f8-89cd9442c574")
-		(property "Reference" "#PWR0127"
-			(at 328.93 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12v"
-			(at 328.93 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 328.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46b12ca9-f6ef-4530-b135-8123caa4d7a7")
-		)
-		(instances
-			(project "TTSI 4"
-				(path "/8333e4c5-977f-459c-982e-d2d7d024e7e8"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8873,7 +8817,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22u"
 			(at 342.9 196.8499 0)
 			(effects
 				(font
@@ -9007,7 +8951,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbcdad98-58e0-469c-bd81-0302283c1c37")
 		(property "Reference" "D103"
 			(at 162.56 62.5474 90)
@@ -9064,7 +9007,7 @@
 			)
 		)
 		(property "JLC#" "C3030991"
-			(at 158.75 62.23 0)
+			(at 155.956 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
