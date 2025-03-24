@@ -1,14 +1,24 @@
 Download git
-A
-Create a token so you can pull the repository in git bash
+
+Create a token in github so you can pull the repository in git bash
+
+------------------------
 
 INSIDE GIT BASH TERMINAL
 
 git clone https://github.com/JacobParent7/FSAE_ELECTRONICS.git
 
-MAKE EDITS TO LOCAL COPY
+cd FSAE_ELECTRONICS
 
-INSIDE GIT BASH TERMINAL
+right click on FSAE_ELECTRONICS in git bash terminal to open file location and find KiCAD project
+
+------------------------
+
+MAKE ALL EDITS TO LOCAL COPY HERE
+
+------------------------
+
+OPEN GIT BASH TERMINAL WHEN FINISHED
 
 cd FSAE_ELECTRONICS/
 
@@ -21,6 +31,8 @@ git commit -m "Description of work done in commit"
 git push -u origin "Branch Name"
 
 DELETE LOCAL COPY
+
+------------------------
 
 REPEAT
 
