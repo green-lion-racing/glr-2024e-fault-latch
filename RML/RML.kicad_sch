@@ -3931,6 +3931,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -4122,7 +4140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.8 64.4652 0)
 			(effects
 				(font
@@ -4131,7 +4149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894393365368832"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -4142,6 +4160,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C1524"
+			(at 181.61 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,6 +4237,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C163339"
+			(at 64.77 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "15k"
 			(at 80.01 153.67 90)
 			(effects
 				(font
@@ -4522,7 +4558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.914 153.416 90)
 			(effects
 				(font
@@ -4531,7 +4567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705971410853888"
 			(at 74.93 153.67 0)
 			(effects
 				(font
@@ -4549,7 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" ""
+		(property "JLC#" "C25756"
 			(at 74.93 153.67 0)
 			(effects
 				(font
@@ -4667,7 +4703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 219.964 89.916 90)
 			(effects
 				(font
@@ -4676,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898236594081792"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -4686,6 +4722,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C102750"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -4828,6 +4873,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C163339"
+			(at 44.45 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f14f0c7-92ec-496a-bb30-ec2c1c395f88")
 		)
@@ -4871,7 +4925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.686 73.914 90)
 			(effects
 				(font
@@ -4880,7 +4934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898237633323008"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -4890,6 +4944,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C102759"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -5066,7 +5129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aac295d-7e7e-445c-8127-b3762add9496")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 245.11 83.8199 0)
 			(effects
 				(font
@@ -5084,7 +5147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 243.84 82.55 0)
 			(effects
 				(font
@@ -5093,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588896295771639808"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -5138,6 +5201,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C2562"
+			(at 238.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "633749a3-2d5e-4454-b9db-987cd9c03901")
 		)
@@ -5150,7 +5222,7 @@
 		(instances
 			(project ""
 				(path "/3ca2658d-b0d3-478f-88c8-e8564dea016d"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5202,6 +5274,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 85.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C163339"
+			(at 85.09 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,6 +5358,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C163339"
+			(at 34.29 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2faa47ab-8ffd-4b1f-9054-04567a18cc10")
 		)
@@ -5319,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 24.13 151.13 0)
 			(effects
 				(font
@@ -5396,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -5405,7 +5495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/sn74ahc1g02.pdf?ts=1743093850620&ref_url=https%253A%252F%252Fpro.easyeda.com%252F"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -5415,6 +5505,15 @@
 			)
 		)
 		(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C7463"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -5796,6 +5895,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C163339 "
+			(at 74.93 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7099f97d-60ce-4778-b2fd-fb5d438e31b0")
 		)
@@ -5839,7 +5947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.9852 60.96 0)
 			(effects
 				(font
@@ -5848,7 +5956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588898744154116096"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -5858,6 +5966,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C107013 "
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -5900,7 +6017,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22u"
 			(at 88.9 184.1499 0)
 			(effects
 				(font
@@ -5918,7 +6035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589952084973027328"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -5936,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" ""
+		(property "JLC#" "C105226 "
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -6081,7 +6198,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" ""
+		(property "JLC#" "C90760"
 			(at 60.96 166.37 0)
 			(effects
 				(font
@@ -6219,7 +6336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 84.074 167.386 90)
 			(effects
 				(font
@@ -6388,6 +6505,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C163339"
+			(at 54.61 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
