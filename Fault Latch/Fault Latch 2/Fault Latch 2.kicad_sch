@@ -7248,6 +7248,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 156.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e77a47be-17bf-4687-9918-d791e3e1bff3")
 		)
@@ -7557,6 +7565,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 407.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "db5b9671-398c-4320-a6e9-2588f6dce05e")
 		)
@@ -7705,6 +7721,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 191.77 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 191.77 160.02 0)
 			(effects
 				(font
@@ -8094,6 +8118,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 140.97 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5412747a-64d1-4394-b4d7-d69f4625c683")
 		)
@@ -8197,6 +8229,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 172.72 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 172.72 223.52 0)
 			(effects
 				(font
@@ -8514,6 +8554,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ccc8b59-4af1-44ae-91ad-671de62d5b9c")
 		)
@@ -8695,6 +8743,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "a06d750c-f3cd-4135-8c6c-9a618a5e1689")
 		)
@@ -8804,6 +8860,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 140.97 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 140.97 269.24 0)
 			(effects
 				(font
@@ -8980,6 +9044,14 @@
 			)
 		)
 		(property "MOUSER" "595-SN74LS279ADR "
+			(at 127 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 127 279.4 0)
 			(effects
 				(font
@@ -9204,6 +9276,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 57.15 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "181a33c1-a0c5-4a0b-9877-1448cf2ca31c")
 		)
@@ -9366,6 +9446,14 @@
 		)
 		(property "MOUSER" "571-6419641 "
 			(at 228.6 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 228.6 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,6 +9766,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 93.98 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c02116c1-f147-47b2-b9f8-59a24a837f35")
 		)
@@ -9854,6 +9950,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad530b18-dfea-4988-8753-5d5fa9ca6cb1")
 		)
@@ -10022,6 +10126,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 228.6 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "553687b7-f440-4a63-a892-446f54a0bcfa")
 		)
@@ -10132,6 +10244,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18d00a7b-0062-4b10-a9cd-c3bd739f5dea")
 		)
@@ -10227,6 +10347,14 @@
 		)
 		(property "MOUSER" "571-6419641 "
 			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 35.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,6 +10461,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 212.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 212.09 48.26 0)
 			(effects
 				(font
@@ -10516,6 +10652,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 39.37 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91b2c6f2-371c-4622-96f8-a3d405150441")
 		)
@@ -10686,6 +10830,14 @@
 			)
 		)
 		(property "MOUSER" "SFH617A-1X007T "
+			(at 48.26 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 48.26 227.33 0)
 			(effects
 				(font
@@ -11075,6 +11227,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c913e53a-1f45-482c-987d-1297ea5f75fb")
 		)
@@ -11172,6 +11332,14 @@
 		)
 		(property "MOUSER" "571-6419641 "
 			(at 228.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 228.6 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,6 +11520,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 284.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08ca1d3e-aa8f-4473-ad56-5a56cb9b03f7")
 		)
@@ -11455,6 +11631,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 59.69 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 59.69 205.74 0)
 			(effects
 				(font
@@ -11569,6 +11753,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 397.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e19ffdd7-6e1c-4237-aafc-ab030411dcf6")
 		)
@@ -11671,6 +11863,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 160.02 146.05 0)
 			(effects
 				(font
@@ -11788,6 +11988,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c674e3e-78ea-415a-aeba-550848db53d4")
 		)
@@ -11888,6 +12096,14 @@
 			)
 		)
 		(property "MOUSER" "595-SN74LS279ADR "
+			(at 364.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 364.49 142.24 0)
 			(effects
 				(font
@@ -12041,6 +12257,14 @@
 			)
 		)
 		(property "MOUSER" "SFH617A-1X007T "
+			(at 48.26 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 48.26 284.48 0)
 			(effects
 				(font
@@ -12231,6 +12455,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44243f3d-ac8e-4f06-9e89-a9bae0fa8fc0")
 		)
@@ -12410,6 +12642,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 90.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1e8e4f9-ac66-400b-9b35-11feb2a30a26")
 		)
@@ -12529,6 +12769,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 160.02 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f368704-4bd5-4d92-8d49-1a168e8afc76")
 		)
@@ -12632,6 +12880,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 34.29 49.53 0)
 			(effects
 				(font
@@ -12749,6 +13005,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "772aa5d6-2a89-44a1-95fc-9f1357af576f")
 		)
@@ -12849,6 +13113,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 93.98 142.24 0)
 			(effects
 				(font
@@ -13030,6 +13302,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e9068d7-5070-40a1-96b0-0678efd50201")
 		)
@@ -13143,6 +13423,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 39.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 39.37 154.94 0)
 			(effects
 				(font
@@ -13326,6 +13614,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "610d8258-8f4b-4a6a-82f1-57fd55229592")
 		)
@@ -13427,6 +13723,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 44.45 55.88 0)
 			(effects
 				(font
@@ -13571,6 +13875,14 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 482.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
@@ -13669,6 +13981,14 @@
 			)
 		)
 		(property "MOUSER" "SFH617A-1X007T "
+			(at 149.86 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 149.86 276.86 0)
 			(effects
 				(font
@@ -13783,6 +14103,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -14163,6 +14491,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "486b6abe-b9f3-417f-97e2-2f21c86d896b")
 		)
@@ -14266,6 +14602,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 59.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 59.69 214.63 0)
 			(effects
 				(font
@@ -14449,6 +14793,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 57.15 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ca59aef-7810-4b6a-aa51-4bbb98afc492")
 		)
@@ -14552,6 +14904,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 184.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 184.15 175.26 0)
 			(effects
 				(font
@@ -14665,6 +15025,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 172.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 172.72 161.29 0)
 			(effects
 				(font
@@ -14842,6 +15210,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 54.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 54.61 55.88 0)
 			(effects
 				(font
@@ -15088,6 +15464,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 273.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b59157ff-e665-48c9-974f-4b051a739174")
 		)
@@ -15192,6 +15576,14 @@
 			)
 		)
 		(property "MOUSER" "SFH617A-1X007T "
+			(at 149.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 149.86 154.94 0)
 			(effects
 				(font
@@ -15315,6 +15707,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 184.15 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f45f88d6-7485-471a-b8ed-b4a8e83de56c")
 		)
@@ -15419,6 +15819,14 @@
 			)
 		)
 		(property "MOUSER" "595-SN74LS279ADR "
+			(at 127 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 127 219.71 0)
 			(effects
 				(font
@@ -15578,6 +15986,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 39.37 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "90522e73-7202-4533-b2c2-fbbee587134f")
 		)
@@ -15681,6 +16097,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 172.72 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 172.72 283.21 0)
 			(effects
 				(font
@@ -15857,6 +16281,14 @@
 			)
 		)
 		(property "MOUSER" "SFH617A-1X007T "
+			(at 149.86 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 149.86 217.17 0)
 			(effects
 				(font
@@ -16069,6 +16501,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 457.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -16309,6 +16749,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 184.15 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "01f6c2be-a188-4191-b846-20a975d237bc")
 		)
@@ -16415,6 +16863,14 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfe20142-6f9d-4abd-bebb-6776bc19cbf4")
 		)
@@ -16515,6 +16971,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 138.43 48.26 0)
 			(effects
 				(font
@@ -16625,6 +17089,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -16745,6 +17217,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf66160a-08f9-4c5e-aeb8-ef14ae74a0be")
 		)
@@ -16856,6 +17336,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "475dbdf1-5a90-42b4-a4a2-f14ae23a1ff4")
 		)
@@ -16956,6 +17444,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 355.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 355.6 49.53 0)
 			(effects
 				(font
@@ -17129,6 +17625,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 93.98 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 93.98 265.43 0)
 			(effects
 				(font
@@ -17313,6 +17817,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "28345877-8de5-4f62-baef-05f4098c4d10")
 		)
@@ -17490,6 +18002,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "35060480-567c-41ea-b57e-92a4d9b85163")
 		)
@@ -17592,6 +18112,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 191.77 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 191.77 281.94 0)
 			(effects
 				(font
@@ -17705,6 +18233,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 294.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 294.64 49.53 0)
 			(effects
 				(font
@@ -17888,6 +18424,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a89d4568-671e-4ce3-aa2c-9ad533b515ca")
 		)
@@ -18024,6 +18568,14 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 482.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
@@ -18119,6 +18671,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 90.17 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 90.17 279.4 0)
 			(effects
 				(font
@@ -18443,6 +19003,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 57.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4fdf9c83-d867-4cc6-a66d-f13f4216572b")
 		)
@@ -18618,6 +19186,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21bfac8a-f562-4f8f-aee4-f69eab29198d")
 		)
@@ -18721,6 +19297,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 72.39 41.91 0)
 			(effects
 				(font
@@ -18838,6 +19422,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da83734b-3e8e-4d88-9987-feba91850d15")
 		)
@@ -18941,6 +19533,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 34.29 63.5 0)
 			(effects
 				(font
@@ -19058,6 +19658,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e2adee0-0472-4b23-b9bd-eee364cfa4ce")
 		)
@@ -19129,6 +19737,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 457.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -19312,6 +19928,22 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" "C5264430"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "https://jlcpcb.com/partdetail/Zoeygo-B1205S1WR3/C5264430"
+			(at 326.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8535a14e-1be9-4dba-a602-d634076f9f52")
 		)
@@ -19428,6 +20060,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 204.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45d22139-d7e7-4bda-ba98-3aa39c3ee371")
 		)
@@ -19530,6 +20170,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 191.77 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 191.77 222.25 0)
 			(effects
 				(font
@@ -19650,6 +20298,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 306.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "492eec4e-4221-4ff4-a0d6-41a7ae647037")
 		)
@@ -19761,6 +20417,14 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 140.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b6fc4b8-9574-4bc5-bedc-04f064ba5d2f")
 		)
@@ -19864,6 +20528,14 @@
 			)
 		)
 		(property "MOUSER" ""
+			(at 160.02 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 160.02 209.55 0)
 			(effects
 				(font
@@ -20038,6 +20710,14 @@
 			)
 		)
 		(property "MOUSER" "595-SN74LS279ADR "
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 127 157.48 0)
 			(effects
 				(font
