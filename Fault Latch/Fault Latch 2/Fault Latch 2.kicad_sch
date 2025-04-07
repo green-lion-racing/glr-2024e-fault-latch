@@ -3699,12 +3699,13 @@
 		)
 		(uuid "073028cd-5e17-4c43-8c06-c2befbed7dcf")
 	)
-	(text "3/12/25 NOTES\n\n- Put decoupling caps on 74LS279\n- Place resistors on coil according to datasheet X\n- Pulse generator   X\n- The 12V logic doesn't work for the relay, the relay is 5V\n	- need to change it to a FTR-LYCA012Y but i dont know where the footprint is\n"
+	(text "NEED TO CHANGE THE RELAYS FROM 5V to 12V!!!!!!!!!!!!!"
 		(exclude_from_sim no)
-		(at 316.23 121.92 0)
+		(at 286.512 186.944 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(color 255 32 36 1)
 			)
 			(justify left)
 		)
