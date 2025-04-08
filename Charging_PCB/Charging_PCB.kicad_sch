@@ -1440,13 +1440,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 58.42) (xy 111.76 62.23)
+			(xy 130.81 68.58) (xy 130.81 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0841ef8e-7afd-4100-8357-27426a26372a")
+		(uuid "08970810-b366-4014-bc50-5b13884d9de4")
 	)
 	(wire
 		(pts
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 111.76 58.42)
+			(xy 113.03 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 115.57 68.58)
+			(xy 105.41 71.12) (xy 115.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 67.31) (xy 40.64 67.31)
+			(xy 34.29 69.85) (xy 57.15 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1617,16 +1617,6 @@
 			(type default)
 		)
 		(uuid "75f8fc2e-a26e-47fd-b73b-cdd2a0a2453a")
-	)
-	(wire
-		(pts
-			(xy 52.07 57.15) (xy 52.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b68eafa-11ce-436d-aa0a-5e2b826d4bd9")
 	)
 	(wire
 		(pts
@@ -1670,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 69.85) (xy 105.41 69.85)
+			(xy 72.39 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1710,16 +1700,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 67.31) (xy 40.64 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c79a9e-a5c2-4ae2-9819-c0c8cf36ffdd")
-	)
-	(wire
-		(pts
 			(xy 111.76 44.45) (xy 100.33 44.45)
 		)
 		(stroke
@@ -1730,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 69.85) (xy 105.41 68.58)
+			(xy 105.41 67.31) (xy 105.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1799,7 @@
 		(uuid "6a01663b-2471-4928-b8f2-e1307519292d")
 	)
 	(label "+12_Relay"
-		(at 40.64 69.85 0)
+		(at 34.29 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,6 +1900,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" ""
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6065a9d2-5c85-4349-80f5-85f1229c3136")
 		)
@@ -1989,6 +1977,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC#" ""
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2160,6 +2156,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" ""
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5d12646-71d3-4136-967e-4dca8e01f72f")
 		)
@@ -2180,7 +2184,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 60.96 0)
+		(at 52.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2189,7 +2193,7 @@
 		(fields_autoplaced yes)
 		(uuid "20315f94-0fd3-4179-846b-42ed1d9ae968")
 		(property "Reference" "#PWR04"
-			(at 52.07 67.31 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 66.04 0)
+			(at 52.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 60.96 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 60.96 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 60.96 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,6 +2368,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" ""
+			(at 64.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc37dfdd-f18d-44b8-a447-04cf2838bbba")
 		)
@@ -2446,16 +2458,16 @@
 	)
 	(symbol
 		(lib_id "Relay:G2RL-1")
-		(at 64.77 62.23 270)
+		(at 64.77 62.23 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bf180a2-f665-49c3-bcc4-8e40a83fafb5")
 		(property "Reference" "K3"
-			(at 64.77 46.99 90)
+			(at 64.77 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2475,7 @@
 			)
 		)
 		(property "Value" "BMS_Relay"
-			(at 64.77 49.53 90)
+			(at 64.77 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2483,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1"
-			(at 63.5 73.66 0)
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,6 +2508,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC#" "C1524507"
+			(at 64.77 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "14"
@@ -2524,16 +2544,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 62.23 0)
+		(at 109.22 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "832387d7-2c74-46da-94db-ec86a472437b")
 		(property "Reference" "#PWR05"
-			(at 111.76 68.58 0)
+			(at 109.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2561,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 67.31 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 62.23 0)
+			(at 109.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 62.23 0)
+			(at 109.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 62.23 0)
+			(at 109.22 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,13 +2609,13 @@
 	)
 	(symbol
 		(lib_id "Relay:G2RL-1")
-		(at 123.19 63.5 270)
+		(at 123.19 63.5 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9632134b-a649-41e8-ad07-717bc939061c")
 		(property "Reference" "K4"
 			(at 123.19 48.26 90)
@@ -2615,7 +2634,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1"
-			(at 121.92 74.93 0)
+			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,6 +2659,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC#" "C1524507"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "14"
@@ -2853,6 +2880,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" ""
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a31e428-f1de-4ed0-95e3-a5b644167ab9")
 		)
@@ -2923,6 +2958,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLC#" ""
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5d761922-7ee6-4c2f-b87a-a9e1342f2d47")
 		)
@@ -2989,6 +3032,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC#" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

@@ -588,6 +588,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC#",
+          "name": "JLC#",
+          "show": true
         }
       ],
       "filter_string": "",
