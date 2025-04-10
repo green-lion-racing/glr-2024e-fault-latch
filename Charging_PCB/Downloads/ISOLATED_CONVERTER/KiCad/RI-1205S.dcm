@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RI-1205S
+D Recom 2W Isolated DC-DC Converter, Vin 10.8  13.2 V dc, Vout 5V dc, I/O isolation 1000V
+K
+F https://recom-power.com/pdf/Econoline/RI.pdf
+$ENDCMP
+#
+#End Doc Library
