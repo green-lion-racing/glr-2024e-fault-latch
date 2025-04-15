@@ -7651,7 +7651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "Fujitsu_FTR-LYAA012x"
 			(at 189.484 153.67 0)
 			(effects
 				(font
@@ -7689,7 +7689,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1222376"
+		(property "JLC#" " "
 			(at 203.2 161.9249 0)
 			(effects
 				(font
@@ -7723,7 +7723,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "FTR-LYCA012Y "
 			(at 191.77 160.02 0)
 			(effects
 				(font
@@ -18092,7 +18092,7 @@
 				)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "Fujitsu_FTR-LYAA012x"
 			(at 193.04 275.59 0)
 			(effects
 				(font
@@ -18129,7 +18129,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1222376"
+		(property "JLC#" " "
 			(at 191.77 285.496 0)
 			(effects
 				(font
@@ -18162,7 +18162,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "FTR-LYCA012Y "
 			(at 191.77 281.94 0)
 			(effects
 				(font
@@ -20161,7 +20161,7 @@
 				)
 			)
 		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
+		(property "Value" "Fujitsu_FTR-LYAA012x"
 			(at 191.77 214.63 0)
 			(effects
 				(font
@@ -20198,7 +20198,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1222376"
+		(property "JLC#" " "
 			(at 191.77 226.06 0)
 			(effects
 				(font
@@ -20231,7 +20231,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "FTR-LYCA012Y "
 			(at 191.77 222.25 0)
 			(effects
 				(font
