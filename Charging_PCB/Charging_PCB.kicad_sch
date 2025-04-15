@@ -2698,7 +2698,7 @@
 				)
 			)
 		)
-		(property "Value" "BMS_Relay"
+		(property "Value" "Relay_SPDT_Omron_G2RL-1"
 			(at 58.42 46.99 90)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Relay Output"
+		(property "Value" "641964-1"
 			(at 135.89 105.41 90)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Value" "IMD_Relay"
+		(property "Value" "Relay_SPDT_Omron_G2RL-1"
 			(at 116.84 50.8 90)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Signal Inputs"
+		(property "Value" "641964-1"
 			(at 58.42 105.918 90)
 			(effects
 				(font
@@ -3655,7 +3655,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Charger Input"
+		(property "Value" "641964-1"
 			(at 89.154 105.41 90)
 			(effects
 				(font
