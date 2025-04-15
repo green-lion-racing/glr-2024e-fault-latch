@@ -5418,7 +5418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.3152 153.67 0)
 			(effects
 				(font
@@ -5443,6 +5443,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C1525"
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5513,6 +5521,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -5979,6 +5995,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "BSPD"
 				(path "/8d21c8dd-e639-4839-877d-5028bdc6290a"
@@ -6202,6 +6226,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 307.34 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26d5ec9c-e525-4b50-99ed-168d35e7168a")
 		)
@@ -6248,7 +6280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PVG3A103C01R00:RES_C01R00"
+		(property "Footprint" "3224W-1-103E:POT_3224W"
 			(at 299.72 34.29 0)
 			(effects
 				(font
@@ -6273,6 +6305,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C81348"
+			(at 299.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6386,7 +6426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 220.98 0)
 			(effects
 				(font
@@ -6411,6 +6451,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C1525"
+			(at 234.95 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6549,6 +6597,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7948"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "9902f829-95eb-45c3-8339-8813c654b5c1")
 		)
@@ -6654,6 +6710,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1713"
+			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fbfe4d2-779e-4f07-9c00-7a317807d6e2")
 		)
@@ -6697,7 +6761,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PVG3A103C01R00:RES_C01R00"
+		(property "Footprint" "3224W-1-103E:POT_3224W"
 			(at 234.95 35.56 0)
 			(effects
 				(font
@@ -6722,6 +6786,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C81348"
+			(at 234.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6795,6 +6867,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -6926,6 +7006,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" " C352943"
+			(at 166.37 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "36203039-b4e4-4e25-a70f-11dfde33d7f6")
 		)
@@ -7005,7 +7093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 154.686 200.914 90)
 			(effects
 				(font
@@ -7030,6 +7118,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1489"
+			(at 153.67 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7100,6 +7196,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C98856 "
+			(at 165.1 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -7230,7 +7334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 101.6 0)
 			(effects
 				(font
@@ -7255,6 +7359,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C1525"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7391,6 +7503,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1713"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdf0dece-0f64-4b64-987d-59823ff786ca")
 		)
@@ -7459,6 +7579,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -7721,6 +7849,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C18212367"
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8167,7 +8303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PVG3A103C01R00:RES_C01R00"
+		(property "Footprint" "3224W-1-103E:POT_3224W"
 			(at 349.25 34.29 0)
 			(effects
 				(font
@@ -8192,6 +8328,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C81348"
+			(at 349.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8240,7 +8384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 195.58 0)
 			(effects
 				(font
@@ -8265,6 +8409,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C1525"
+			(at 234.95 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8310,7 +8462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 279.0952 208.28 0)
 			(effects
 				(font
@@ -8335,6 +8487,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C1525"
+			(at 278.13 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8445,7 +8605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 310.896 212.344 90)
 			(effects
 				(font
@@ -8470,6 +8630,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C102061"
+			(at 309.88 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8714,7 +8882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 230.8352 176.53 0)
 			(effects
 				(font
@@ -8739,6 +8907,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1524"
+			(at 229.87 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8811,6 +8987,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1713"
+			(at 245.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed279433-b2b7-495e-a2f6-198ce8614518")
 		)
@@ -8854,7 +9038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 246.126 164.084 90)
 			(effects
 				(font
@@ -8879,6 +9063,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1489"
+			(at 245.11 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9254,7 +9446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 244.856 202.184 90)
 			(effects
 				(font
@@ -9279,6 +9471,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1489"
+			(at 243.84 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9416,6 +9616,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7666"
+			(at 260.35 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4cf4d779-aaaa-4217-a615-a81e903da012")
 		)
@@ -9468,7 +9676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PVG3A103C01R00:RES_C01R00"
+		(property "Footprint" "3224W-1-103E:POT_3224W"
 			(at 189.23 35.56 0)
 			(effects
 				(font
@@ -9493,6 +9701,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C81348"
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9738,7 +9954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SN74LVC1G08DBVR:DBV0005A_N"
+		(property "Footprint" "SN74LVC1G08DBVR:DBV0005A_L"
 			(at 115.57 165.1 0)
 			(effects
 				(font
@@ -9765,6 +9981,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7666"
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -9846,6 +10070,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" " C7593"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "97fe512c-b0aa-4e8a-813c-3c2ce98f202c")
 		)
@@ -9886,7 +10118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f10f4d21-2ddc-4908-8e1d-929d210f6ffa")
 		(property "Reference" "U10"
@@ -9934,6 +10166,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10025,7 +10265,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f1a176ff-ce1b-4937-a3bf-2bda249494fa")
 		(property "Reference" "U7"
@@ -10073,6 +10313,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 25.4 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10230,7 +10478,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8d0f866-0444-44fe-b5e8-5e7b639cc71f")
 		(property "Reference" "U9"
@@ -10278,6 +10526,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
