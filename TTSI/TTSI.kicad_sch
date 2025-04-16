@@ -5499,7 +5499,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23d68220-e4c9-4ae0-98c9-27f604c32bb7")
 		(property "Reference" "Q104"
 			(at 251.46 59.6899 0)
@@ -8701,7 +8700,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be7b5c25-1a1a-441e-9b55-869a4192a213")
 		(property "Reference" "R104"
 			(at 238.76 78.7399 0)
