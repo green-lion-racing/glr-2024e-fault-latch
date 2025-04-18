@@ -5426,7 +5426,7 @@
 	)
 	(text_box "BSPD\n"
 		(exclude_from_sim no)
-		(at 24.13 289.56 0)
+		(at 26.67 214.63 0)
 		(size 226.06 58.42)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7501,7 +7501,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 214.63) (xy 530.86 219.71)
+			(xy 530.86 214.63) (xy 530.86 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9792,7 +9792,7 @@
 		)
 		(uuid "78950ea4-2ef6-438e-8204-dfc4bec30818")
 	)
-	(label "BMS_Green"
+	(label "IMD_Green"
 		(at 241.3 101.6 180)
 		(effects
 			(font
@@ -12468,6 +12468,72 @@
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "U106")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 530.86 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b487b8-a85f-4e44-8838-8fb6349e580d")
+		(property "Reference" "#PWR0136"
+			(at 530.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 530.86 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 530.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 530.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 530.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2585be21-4e51-4470-bbf0-80f9c5310f1e")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0136")
+					(unit 1)
 				)
 			)
 		)
@@ -16851,71 +16917,6 @@
 			(project ""
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 530.86 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78fd8a2f-8fbf-4b66-bfa6-bede61049b51")
-		(property "Reference" "#PWR0180"
-			(at 530.86 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 530.86 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 530.86 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 530.86 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 530.86 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff0f7f24-1b17-422d-9004-70804ac6edd5")
-		)
-		(instances
-			(project "Fault Latch 2"
-				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
-					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
