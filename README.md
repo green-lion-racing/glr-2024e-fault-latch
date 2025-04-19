@@ -51,3 +51,8 @@ go into pull request
 marge if no issues
 
 delete branch 
+
+# FAULT LATCH
+
+![FaultLatch](https://github.com/user-attachments/assets/3dcf80d5-223d-454f-9a48-82ccf43e8bfd)
+
