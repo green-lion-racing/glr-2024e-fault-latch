@@ -1,5 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"D1, D2",D_SMA,2,D_Schottky,C8678
-"Q3, Q4",SOT-523_Custom(C96676),2,Q_PMOS_GSD,C96676
-R1,0805,1,1K,C17513
-R2,0805,1,2.2K,C17520
