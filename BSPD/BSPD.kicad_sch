@@ -7970,15 +7970,15 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 307.34 200.66 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9fed2b84-bf64-477b-a6a5-4bf444f0d937")
 		(property "Reference" "Q101"
-			(at 313.69 199.3899 0)
+			(at 313.69 201.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +7987,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 313.69 201.9299 0)
+			(at 313.69 199.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +7996,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 312.42 198.12 0)
+			(at 312.42 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

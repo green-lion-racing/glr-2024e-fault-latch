@@ -5337,18 +5337,6 @@
 		(uuid "203f5031-e41c-4d57-9353-0eaca6fbffb9")
 	)
 	(junction
-		(at 401.32 252.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a999cb5-4d23-4220-b5cb-35789c1f63a1")
-	)
-	(junction
-		(at 401.32 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32c7fd0a-82d9-41c9-ac91-c5acbdfd04cd")
-	)
-	(junction
 		(at 267.97 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5517,6 +5505,12 @@
 		(uuid "a3713eec-ce4a-4fec-aba2-0f1c48b546e4")
 	)
 	(junction
+		(at 406.4 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8d6b1e4-f8d7-471b-9faf-cc628d183d0c")
+	)
+	(junction
 		(at 59.69 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5649,12 +5643,6 @@
 		(uuid "ea07c86c-235e-4a28-bc66-c25548561ff6")
 	)
 	(junction
-		(at 139.7 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaff49c3-46f4-4cfa-89f5-a0764206f6f1")
-	)
-	(junction
 		(at 186.69 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5697,16 +5685,6 @@
 	(no_connect
 		(at 256.54 44.45)
 		(uuid "eee68e60-c6c8-4191-b126-f3ef3b0a0117")
-	)
-	(wire
-		(pts
-			(xy 401.32 254) (xy 401.32 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0132b697-2b6d-411f-81e6-c817932942d7")
 	)
 	(wire
 		(pts
@@ -5991,16 +5969,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 238.76) (xy 401.32 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1703cacc-2ddd-4037-8ede-edb2ca4ea1e7")
-	)
-	(wire
-		(pts
 			(xy 110.49 242.57) (xy 119.38 242.57)
 		)
 		(stroke
@@ -6219,6 +6187,16 @@
 			(type default)
 		)
 		(uuid "27567dab-26c4-4fbe-9426-aecbc7227d1a")
+	)
+	(wire
+		(pts
+			(xy 389.89 246.38) (xy 398.78 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a8d55b-7b7a-47e6-a361-33a6df09a179")
 	)
 	(wire
 		(pts
@@ -6783,16 +6761,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 246.38) (xy 393.7 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b2b3d8d-71b0-4930-8055-e4f0a0333734")
-	)
-	(wire
-		(pts
 			(xy 107.95 67.31) (xy 107.95 71.12)
 		)
 		(stroke
@@ -6963,16 +6931,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 251.46) (xy 401.32 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5790636c-7f53-43b5-8f38-fbb600d5fbb1")
-	)
-	(wire
-		(pts
 			(xy 349.25 39.37) (xy 360.68 39.37)
 		)
 		(stroke
@@ -7123,16 +7081,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 170.18) (xy 149.86 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605c6ec6-0624-41fe-85fc-3f1793ba6643")
-	)
-	(wire
-		(pts
 			(xy 172.72 116.84) (xy 172.72 123.19)
 		)
 		(stroke
@@ -7170,6 +7118,16 @@
 			(type default)
 		)
 		(uuid "624afc3a-8e15-4012-a220-0e38d8ae3be1")
+	)
+	(wire
+		(pts
+			(xy 406.4 238.76) (xy 406.4 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660cb388-1d0e-4be0-90b7-4f3da497f19c")
 	)
 	(wire
 		(pts
@@ -7354,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 245.11) (xy 419.1 250.19)
+			(xy 419.1 245.11) (xy 419.1 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7534,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 182.88) (xy 163.83 182.88)
+			(xy 173.99 180.34) (xy 165.1 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7551,6 +7509,16 @@
 			(type default)
 		)
 		(uuid "7f5cd65c-bb24-433a-92bf-25180f47feed")
+	)
+	(wire
+		(pts
+			(xy 173.99 180.34) (xy 173.99 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f92d0ae-2ffc-41d0-882a-d9c29eb3f7da")
 	)
 	(wire
 		(pts
@@ -7704,6 +7672,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 251.46) (xy 406.4 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ad0821-572b-466f-8298-1021c66b6d2d")
+	)
+	(wire
+		(pts
 			(xy 57.15 223.52) (xy 57.15 222.25)
 		)
 		(stroke
@@ -7711,16 +7689,6 @@
 			(type default)
 		)
 		(uuid "91d40603-55de-4e7c-b5e8-d4b22a797349")
-	)
-	(wire
-		(pts
-			(xy 401.32 240.03) (xy 401.32 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924ad07d-c831-48c5-8777-82707037a9d7")
 	)
 	(wire
 		(pts
@@ -7914,16 +7882,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 240.03) (xy 411.48 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c612671-d4af-4f98-9613-c819be75637f")
-	)
-	(wire
-		(pts
 			(xy 415.29 142.24) (xy 415.29 156.21)
 		)
 		(stroke
@@ -8102,6 +8060,16 @@
 			(type default)
 		)
 		(uuid "a6fb0fce-8cf3-4583-9aab-8197c1d5e7cc")
+	)
+	(wire
+		(pts
+			(xy 406.4 229.87) (xy 406.4 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78d439d-0a5a-4844-b67f-b20a0e3a3464")
 	)
 	(wire
 		(pts
@@ -8583,6 +8551,16 @@
 			(type default)
 		)
 		(uuid "c5524923-ce26-4fbb-9186-b151fe329996")
+	)
+	(wire
+		(pts
+			(xy 406.4 240.03) (xy 411.48 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a3e347-d3aa-4385-a09e-8b67f336cd85")
 	)
 	(wire
 		(pts
@@ -9457,16 +9435,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 229.87) (xy 401.32 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd8bebc3-ff6b-467a-9c1e-208b6175f480")
-	)
-	(wire
-		(pts
 			(xy 140.97 238.76) (xy 140.97 240.03)
 		)
 		(stroke
@@ -9484,6 +9452,16 @@
 			(type default)
 		)
 		(uuid "ffb9ba1f-efce-470b-9f71-7b74b15f2aee")
+	)
+	(wire
+		(pts
+			(xy 406.4 240.03) (xy 406.4 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe656d5-8d81-4627-bc8a-f0bcd1155a7b")
 	)
 	(label "CLOCK"
 		(at 320.04 227.33 180)
@@ -9616,7 +9594,7 @@
 		(uuid "4123ef48-55aa-49fa-8259-4cf94eea7e81")
 	)
 	(label "IMD_LED"
-		(at 382.27 246.38 0)
+		(at 389.89 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9646,7 +9624,7 @@
 		(uuid "62a889ce-e4fc-47cd-ae09-9524c6d9bba5")
 	)
 	(label "IMD_SR"
-		(at 163.83 182.88 0)
+		(at 165.1 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9806,12 +9784,12 @@
 		(uuid "ce274dab-7c86-45d8-a098-b4071dba29c8")
 	)
 	(label "IMD_LED"
-		(at 149.86 170.18 180)
+		(at 212.09 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d7a4cadc-e618-4971-a547-2a727cb5e3d4")
 	)
@@ -10002,6 +9980,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 182.88 163.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10009,7 +9988,7 @@
 		(dnp no)
 		(uuid "03e7f2a0-de88-48c9-a508-cbec05dc2e05")
 		(property "Reference" "Q105"
-			(at 176.784 168.148 0)
+			(at 176.784 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +9997,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 169.418 166.116 0)
+			(at 169.418 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10006,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 187.96 161.29 0)
+			(at 187.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,6 +12357,73 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
+		(at 406.4 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29fe63ff-805b-4b67-b310-7a865479a218")
+		(property "Reference" "#PWR0133"
+			(at 406.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 406.4 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 406.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "338b14a0-b039-4702-b8e8-a3dca46e945d")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
 		(at 298.45 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12548,101 +12594,6 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "U122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 401.32 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "337b0bc8-2116-4c71-87c9-0c1ccb499f16")
-		(property "Reference" "R117"
-			(at 403.86 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500R"
-			(at 403.86 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 402.336 235.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8558359556762984448"
-			(at 401.32 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 401.32 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" "C130232"
-			(at 401.32 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 401.32 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 401.32 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f6b662bc-8c9e-455a-b074-f67e9919304b")
-		)
-		(pin "1"
-			(uuid "2349d340-3698-4746-8371-dc9a68736be2")
-		)
-		(instances
-			(project "Fault Latch 2"
-				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
-					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -13581,73 +13532,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 401.32 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "455130a5-b99f-4eb0-b682-f3eb24b39e20")
-		(property "Reference" "#PWR0133"
-			(at 401.32 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 401.32 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 401.32 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 401.32 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 401.32 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bd31cf3-5b9b-4935-83ee-9ab5fcef03f5")
-		)
-		(instances
-			(project "Fault Latch 2"
-				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 322.58 233.68 180)
 		(unit 1)
@@ -13734,105 +13618,6 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "R130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 398.78 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4925b507-60d3-4914-9857-2b8fa5171c99")
-		(property "Reference" "Q103"
-			(at 405.13 245.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 402.59 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 403.86 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC#" " C151421"
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "eb176907-a7f9-4534-b89d-da5f5ee3bd5d")
-		)
-		(pin "1"
-			(uuid "119ff1be-5f29-4db5-8cf1-0f47fd5cf9f2")
-		)
-		(pin "2"
-			(uuid "bdd3c275-9b96-4509-9cce-375c946b7667")
-		)
-		(instances
-			(project "Fault Latch 2"
-				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
-					(reference "Q103")
 					(unit 1)
 				)
 			)
@@ -14267,6 +14052,125 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 406.4 234.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f5c10fb-414b-4617-aaa9-5bd131b0693b")
+		(property "Reference" "R144"
+			(at 399.288 236.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 399.796 234.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 405.384 235.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" "C17590"
+			(at 405.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" ""
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 406.4 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e623cf91-8378-48b2-81d3-ab5466235504")
+		)
+		(pin "1"
+			(uuid "774fba85-4527-407a-8553-824f18bd1261")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -16445,6 +16349,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 340.36 115.57 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16452,7 +16357,7 @@
 		(dnp no)
 		(uuid "6f80befa-af8a-4716-a8df-2b5d9a626790")
 		(property "Reference" "Q110"
-			(at 334.264 119.888 0)
+			(at 334.264 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16461,7 +16366,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 326.898 117.856 0)
+			(at 326.898 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16470,7 +16375,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 345.44 113.03 0)
+			(at 345.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17052,7 +16957,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 419.1 250.19 0)
+		(at 419.1 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17060,7 +16965,7 @@
 		(dnp no)
 		(uuid "78fd8a2f-8fbf-4b66-bfa6-bede61049b51")
 		(property "Reference" "#PWR0180"
-			(at 419.1 255.27 0)
+			(at 419.1 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17069,7 +16974,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 419.1 255.27 0)
+			(at 419.1 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17077,7 +16982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 419.1 251.46 0)
+			(at 419.1 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17086,7 +16991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 251.46 0)
+			(at 419.1 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17095,7 +17000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 419.1 250.19 0)
+			(at 419.1 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17556,71 +17461,6 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "#PWR0189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 401.32 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80746bd2-1b2e-497a-8208-6e343a7557f9")
-		(property "Reference" "#PWR0190"
-			(at 401.32 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 401.32 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 401.32 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 401.32 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 401.32 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08107dfa-7949-45d6-b063-a74240b34d18")
-		)
-		(instances
-			(project "Fault Latch 2"
-				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
-					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -23494,6 +23334,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 403.86 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c52dbc79-2bd6-479b-a2c2-38d4ab2232a7")
+		(property "Reference" "Q103"
+			(at 410.21 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 407.67 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 408.94 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 403.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 403.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" " C151421"
+			(at 403.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 403.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 403.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8f731020-54df-42ca-9916-bfea39be19e6")
+		)
+		(pin "1"
+			(uuid "b714ad53-c866-4417-a0f7-7134428d5129")
+		)
+		(pin "2"
+			(uuid "acf93e64-5dd1-45cf-9480-27c9f8c61dc2")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "Q103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 406.4 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c533980a-5071-4b4e-acb5-41064301f42a")
+		(property "Reference" "#PWR0190"
+			(at 406.4 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 406.4 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 406.4 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b6fae2-eab6-401d-ada1-974ae4f31867")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 400.05 138.43 0)
 		(unit 1)
@@ -27275,6 +27279,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 181.61 97.79 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27282,7 +27287,7 @@
 		(dnp no)
 		(uuid "f0d2ec1f-2d6e-4b30-9e27-f938dc8258f4")
 		(property "Reference" "Q109"
-			(at 175.514 102.108 0)
+			(at 175.514 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27291,7 +27296,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 168.148 100.076 0)
+			(at 168.148 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27300,7 +27305,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 186.69 95.25 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28367,6 +28372,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 340.36 152.4 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28374,7 +28380,7 @@
 		(dnp no)
 		(uuid "fed296f0-a0dc-4f72-a1c0-5c45e185212a")
 		(property "Reference" "Q118"
-			(at 334.264 156.718 0)
+			(at 334.264 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28383,7 +28389,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GSD"
-			(at 326.898 154.686 0)
+			(at 326.898 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28392,7 +28398,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 345.44 149.86 0)
+			(at 345.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
