@@ -3290,7 +3290,7 @@
 	)
 	(text_box "-PLACE VALUES FOR COMPONENETS\n-USE SIMULATION AND VERIFY\n-place output connectors\n-pmos/nmos footprints\n\n"
 		(exclude_from_sim no)
-		(at 300.99 109.855 0)
+		(at 321.31 152.4 0)
 		(size 89.535 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3735,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "3b11e192-86e5-4c78-a9c3-75511df85d9f")
+	)
+	(wire
+		(pts
+			(xy 294.64 72.39) (xy 281.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c26f22-7ce7-4ad0-85b0-4193f914f354")
 	)
 	(wire
 		(pts
@@ -4926,6 +4936,28 @@
 			)
 		)
 	)
+	(global_label "BSE_Sense_IN"
+		(shape input)
+		(at 281.94 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67082b44-17b3-4e16-86bf-3259aef82812")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 297.988 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "THRESH_BSE"
 		(shape input)
 		(at 196.85 35.56 0)
@@ -5014,7 +5046,7 @@
 			)
 		)
 	)
-	(global_label "THROTTLE_IN"
+	(global_label "THROTTLE_Sense_IN"
 		(shape input)
 		(at 232.41 113.03 0)
 		(fields_autoplaced yes)
@@ -5026,7 +5058,7 @@
 		)
 		(uuid "b2ae1b5f-8158-4826-80f6-60279c1e4c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.309 113.03 0)
+			(at 253.8404 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5178,7 @@
 			)
 		)
 	)
-	(global_label "BSE_IN"
+	(global_label "BSE_Sense_IN"
 		(shape input)
 		(at 232.41 118.11 0)
 		(fields_autoplaced yes)
@@ -5158,7 +5190,7 @@
 		)
 		(uuid "f2d955b2-3139-4e41-a932-0fc879cdfed8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.9266 118.11 0)
+			(at 248.458 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,6 +5213,28 @@
 		(uuid "f72055c4-9aca-4244-9c2f-28c9e2be442f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 371.8295 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "THROTTLE_Sense_IN"
+		(shape input)
+		(at 294.64 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f96127a9-7121-499f-8264-d303d7d5ff3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.0704 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,6 +9538,110 @@
 			(project "BSPD"
 				(path "/8d21c8dd-e639-4839-877d-5028bdc6290a"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "641964-1:641964-1")
+		(at 281.94 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c8e7dea3-c59f-491e-8798-4bef4317f0c3")
+		(property "Reference" "U111"
+			(at 288.29 93.9799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "641964-1"
+			(at 288.29 96.5199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "641964-1:641964-1_TYC"
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "641964-1"
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "883a673f-f25a-4460-a426-08d57f755eb3")
+		)
+		(pin "1"
+			(uuid "eebac8d6-cf97-428f-8be0-b1f8ab062921")
+		)
+		(instances
+			(project "BSPD"
+				(path "/8d21c8dd-e639-4839-877d-5028bdc6290a"
+					(reference "U111")
 					(unit 1)
 				)
 			)
