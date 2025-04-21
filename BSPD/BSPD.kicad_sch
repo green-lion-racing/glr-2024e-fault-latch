@@ -3238,7 +3238,7 @@
 	)
 	(text "Voltage dividers. Set output of them to 0.45V, or threshold of operation of break sensor/throttle\n"
 		(exclude_from_sim no)
-		(at 225.806 53.34 0)
+		(at 220.98 53.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,7 +3291,7 @@
 	(text_box "-PLACE VALUES FOR COMPONENETS\n-USE SIMULATION AND VERIFY\n-place output connectors\n-pmos/nmos footprints\n\n"
 		(exclude_from_sim no)
 		(at 321.31 152.4 0)
-		(size 89.535 13.97)
+		(size 41.91 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3628,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 118.11) (xy 293.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4e39fb-0a8d-40aa-bb4a-1ebb90d15010")
+	)
+	(wire
+		(pts
 			(xy 323.85 207.01) (xy 309.88 207.01)
 		)
 		(stroke
@@ -3738,7 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 72.39) (xy 281.94 72.39)
+			(xy 293.37 72.39) (xy 281.94 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 110.49) (xy 227.33 110.49)
+			(xy 255.27 110.49) (xy 227.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4068,7 +4078,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 111.76) (xy 252.73 110.49)
+			(xy 255.27 111.76) (xy 255.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4938,7 +4948,7 @@
 	)
 	(global_label "BSE_Sense_IN"
 		(shape input)
-		(at 281.94 118.11 0)
+		(at 293.37 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4948,7 +4958,7 @@
 		)
 		(uuid "67082b44-17b3-4e16-86bf-3259aef82812")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.988 118.11 0)
+			(at 309.418 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5234,7 @@
 	)
 	(global_label "THROTTLE_Sense_IN"
 		(shape input)
-		(at 294.64 72.39 0)
+		(at 293.37 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5234,7 +5244,7 @@
 		)
 		(uuid "f96127a9-7121-499f-8264-d303d7d5ff3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.0704 72.39 0)
+			(at 314.8004 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6341,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 111.76 0)
+		(at 255.27 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6340,7 +6350,7 @@
 		(fields_autoplaced yes)
 		(uuid "539ce20f-7dcb-498f-ac86-65209bdb3575")
 		(property "Reference" "#PWR0121"
-			(at 252.73 118.11 0)
+			(at 255.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 116.84 0)
+			(at 255.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 111.76 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
