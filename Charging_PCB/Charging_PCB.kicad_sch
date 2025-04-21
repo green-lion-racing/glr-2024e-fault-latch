@@ -4019,7 +4019,7 @@
 	)
 	(text_box "Mounting Holes"
 		(exclude_from_sim no)
-		(at 147.32 154.94 0)
+		(at 295.91 165.1 0)
 		(size 49.53 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6985,7 +6985,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21c9ace3-1475-4bb7-8b35-b0d2edd317ad")
 		(property "Reference" "U5"
@@ -7361,7 +7361,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 175.26 170.18 0)
+		(at 323.85 180.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7370,7 +7370,7 @@
 		(fields_autoplaced yes)
 		(uuid "29f0ed68-a5df-4f9c-8511-f640762973dd")
 		(property "Reference" "H104"
-			(at 177.8 168.9099 0)
+			(at 326.39 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,7 +7379,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 171.4499 0)
+			(at 326.39 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 175.26 170.18 0)
+			(at 323.85 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 170.18 0)
+			(at 323.85 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7406,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 175.26 170.18 0)
+			(at 323.85 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7415,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 175.26 170.18 0)
+			(at 323.85 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8780,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -8958,7 +8957,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1524507"
+		(property "JLC#" " C469130"
 			(at 96.52 119.38 90)
 			(effects
 				(font
@@ -9607,7 +9606,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 175.26 161.29 0)
+		(at 323.85 171.45 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9616,7 +9615,7 @@
 		(fields_autoplaced yes)
 		(uuid "830da083-0735-4e18-86bf-dfb57b21736d")
 		(property "Reference" "H103"
-			(at 177.8 160.0199 0)
+			(at 326.39 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9624,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 177.8 162.5599 0)
+			(at 326.39 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9633,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 175.26 161.29 0)
+			(at 323.85 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 161.29 0)
+			(at 323.85 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9651,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 175.26 161.29 0)
+			(at 323.85 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9660,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 175.26 161.29 0)
+			(at 323.85 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +9801,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -10726,7 +10724,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1524507"
+		(property "JLC#" " C469130"
 			(at 320.04 129.54 0)
 			(effects
 				(font
@@ -11252,7 +11250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "641964-1"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/418/9/ENG_CS_82181_SOFTSHELL_STANDARD_DENSITY_0508-3353168.pdf"
 			(at 29.21 173.99 0)
 			(effects
 				(font
@@ -12247,7 +12245,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cce7ddde-7131-447f-a0c0-59f34d3fcebe")
 		(property "Reference" "U5"
@@ -12304,52 +12302,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "1212e776-e463-437b-b517-719dfcb3c608")
+			(uuid "1212e776-e463-437b-b517-719dfcb3c609")
 		)
 		(pin "2"
-			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b27")
+			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b28")
 		)
 		(pin "14"
-			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5c")
+			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5d")
 		)
 		(pin "7"
-			(uuid "761d8d76-9206-4795-ab2f-c6010e433921")
+			(uuid "761d8d76-9206-4795-ab2f-c6010e433922")
 		)
 		(pin "5"
-			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4a")
+			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4b")
 		)
 		(pin "12"
-			(uuid "75b24972-07b6-442a-b308-82eb8a2c624f")
+			(uuid "75b24972-07b6-442a-b308-82eb8a2c6250")
 		)
 		(pin "4"
-			(uuid "0f3453df-348d-4576-9d04-a6cc2a42289d")
+			(uuid "0f3453df-348d-4576-9d04-a6cc2a42289e")
 		)
 		(pin "1"
-			(uuid "7d193505-d544-4c21-8919-766f26b77179")
+			(uuid "7d193505-d544-4c21-8919-766f26b7717a")
 		)
 		(pin "6"
-			(uuid "928afb33-012c-485b-a951-0c4d06b57f07")
+			(uuid "928afb33-012c-485b-a951-0c4d06b57f08")
 		)
 		(pin "3"
-			(uuid "740560ad-2231-4749-a0a1-849f27780067")
+			(uuid "740560ad-2231-4749-a0a1-849f27780068")
 		)
 		(pin "11"
-			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05b")
+			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05c")
 		)
 		(pin "10"
-			(uuid "7c63007a-a793-4a1e-9802-25929ccc4005")
+			(uuid "7c63007a-a793-4a1e-9802-25929ccc4006")
 		)
 		(pin "15"
-			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48a")
+			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48b")
 		)
 		(pin "9"
-			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28ac")
+			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28ad")
 		)
 		(pin "13"
-			(uuid "6072f273-2fcc-4600-98c2-b899f94460d5")
+			(uuid "6072f273-2fcc-4600-98c2-b899f94460d6")
 		)
 		(pin "8"
-			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef6")
+			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef7")
 		)
 		(instances
 			(project ""
@@ -12658,7 +12656,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d54cca2c-17fb-4ab0-8648-6b65f35e4688")
 		(property "Reference" "U5"
@@ -12713,52 +12711,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "1212e776-e463-437b-b517-719dfcb3c608")
+			(uuid "1212e776-e463-437b-b517-719dfcb3c60a")
 		)
 		(pin "2"
-			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b27")
+			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b29")
 		)
 		(pin "14"
-			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5c")
+			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5e")
 		)
 		(pin "7"
-			(uuid "761d8d76-9206-4795-ab2f-c6010e433921")
+			(uuid "761d8d76-9206-4795-ab2f-c6010e433923")
 		)
 		(pin "5"
-			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4a")
+			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4c")
 		)
 		(pin "12"
-			(uuid "75b24972-07b6-442a-b308-82eb8a2c624f")
+			(uuid "75b24972-07b6-442a-b308-82eb8a2c6251")
 		)
 		(pin "4"
-			(uuid "0f3453df-348d-4576-9d04-a6cc2a42289d")
+			(uuid "0f3453df-348d-4576-9d04-a6cc2a42289f")
 		)
 		(pin "1"
-			(uuid "7d193505-d544-4c21-8919-766f26b77179")
+			(uuid "7d193505-d544-4c21-8919-766f26b7717b")
 		)
 		(pin "6"
-			(uuid "928afb33-012c-485b-a951-0c4d06b57f07")
+			(uuid "928afb33-012c-485b-a951-0c4d06b57f09")
 		)
 		(pin "3"
-			(uuid "740560ad-2231-4749-a0a1-849f27780067")
+			(uuid "740560ad-2231-4749-a0a1-849f27780069")
 		)
 		(pin "11"
-			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05b")
+			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05d")
 		)
 		(pin "10"
-			(uuid "7c63007a-a793-4a1e-9802-25929ccc4005")
+			(uuid "7c63007a-a793-4a1e-9802-25929ccc4007")
 		)
 		(pin "15"
-			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48a")
+			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48c")
 		)
 		(pin "9"
-			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28ac")
+			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28ae")
 		)
 		(pin "13"
-			(uuid "6072f273-2fcc-4600-98c2-b899f94460d5")
+			(uuid "6072f273-2fcc-4600-98c2-b899f94460d7")
 		)
 		(pin "8"
-			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef6")
+			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef8")
 		)
 		(instances
 			(project ""
@@ -13138,7 +13136,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 170.18 0)
+		(at 302.26 180.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13147,7 +13145,7 @@
 		(fields_autoplaced yes)
 		(uuid "dce1b7de-9b9a-4f2f-9f29-64549158c7c5")
 		(property "Reference" "H102"
-			(at 156.21 168.9099 0)
+			(at 304.8 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,7 +13154,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 156.21 171.4499 0)
+			(at 304.8 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +13163,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 153.67 170.18 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,7 +13172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 170.18 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +13181,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 170.18 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +13190,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 153.67 170.18 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,7 +13213,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dff67176-7d88-4036-af1d-44377ab22411")
 		(property "Reference" "U5"
@@ -13270,52 +13268,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "1212e776-e463-437b-b517-719dfcb3c608")
+			(uuid "1212e776-e463-437b-b517-719dfcb3c60b")
 		)
 		(pin "2"
-			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b27")
+			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b2a")
 		)
 		(pin "14"
-			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5c")
+			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5f")
 		)
 		(pin "7"
-			(uuid "761d8d76-9206-4795-ab2f-c6010e433921")
+			(uuid "761d8d76-9206-4795-ab2f-c6010e433924")
 		)
 		(pin "5"
-			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4a")
+			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4d")
 		)
 		(pin "12"
-			(uuid "75b24972-07b6-442a-b308-82eb8a2c624f")
+			(uuid "75b24972-07b6-442a-b308-82eb8a2c6252")
 		)
 		(pin "4"
-			(uuid "0f3453df-348d-4576-9d04-a6cc2a42289d")
+			(uuid "0f3453df-348d-4576-9d04-a6cc2a4228a0")
 		)
 		(pin "1"
-			(uuid "7d193505-d544-4c21-8919-766f26b77179")
+			(uuid "7d193505-d544-4c21-8919-766f26b7717c")
 		)
 		(pin "6"
-			(uuid "928afb33-012c-485b-a951-0c4d06b57f07")
+			(uuid "928afb33-012c-485b-a951-0c4d06b57f0a")
 		)
 		(pin "3"
-			(uuid "740560ad-2231-4749-a0a1-849f27780067")
+			(uuid "740560ad-2231-4749-a0a1-849f2778006a")
 		)
 		(pin "11"
-			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05b")
+			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05e")
 		)
 		(pin "10"
-			(uuid "7c63007a-a793-4a1e-9802-25929ccc4005")
+			(uuid "7c63007a-a793-4a1e-9802-25929ccc4008")
 		)
 		(pin "15"
-			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48a")
+			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48d")
 		)
 		(pin "9"
-			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28ac")
+			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28af")
 		)
 		(pin "13"
-			(uuid "6072f273-2fcc-4600-98c2-b899f94460d5")
+			(uuid "6072f273-2fcc-4600-98c2-b899f94460d8")
 		)
 		(pin "8"
-			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef6")
+			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef9")
 		)
 		(instances
 			(project ""
@@ -14063,7 +14061,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ee4ea7d6-3d23-47f4-8cc8-15819b4fb5cb")
 		(property "Reference" "U2"
 			(at 387.35 85.598 0)
@@ -14371,7 +14369,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 161.29 0)
+		(at 302.26 171.45 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14380,7 +14378,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3b4dd41-164a-4854-8e51-a08514871588")
 		(property "Reference" "H101"
-			(at 156.21 160.0199 0)
+			(at 304.8 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14387,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 156.21 162.5599 0)
+			(at 304.8 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14396,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 153.67 161.29 0)
+			(at 302.26 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 161.29 0)
+			(at 302.26 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,7 +14414,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 161.29 0)
+			(at 302.26 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +14423,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 153.67 161.29 0)
+			(at 302.26 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +14447,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6b580f3-038b-44b0-a7d2-8302ae736997")
 		(property "Reference" "U1"
 			(at 185.42 86.614 0)
@@ -14718,7 +14716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fae58d96-389c-4111-a37d-9fa088ca15b8")
 		(property "Reference" "U5"
@@ -14773,52 +14771,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "1212e776-e463-437b-b517-719dfcb3c608")
+			(uuid "1212e776-e463-437b-b517-719dfcb3c60c")
 		)
 		(pin "2"
-			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b27")
+			(uuid "1ea3e4ee-27b7-433f-a01d-6bf411c95b2b")
 		)
 		(pin "14"
-			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d5c")
+			(uuid "ffd849a3-0b0f-4980-8068-9b73d51f3d60")
 		)
 		(pin "7"
-			(uuid "761d8d76-9206-4795-ab2f-c6010e433921")
+			(uuid "761d8d76-9206-4795-ab2f-c6010e433925")
 		)
 		(pin "5"
-			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4a")
+			(uuid "8268ed0a-26ac-4be1-a7ea-e63a75408d4e")
 		)
 		(pin "12"
-			(uuid "75b24972-07b6-442a-b308-82eb8a2c624f")
+			(uuid "75b24972-07b6-442a-b308-82eb8a2c6253")
 		)
 		(pin "4"
-			(uuid "0f3453df-348d-4576-9d04-a6cc2a42289d")
+			(uuid "0f3453df-348d-4576-9d04-a6cc2a4228a1")
 		)
 		(pin "1"
-			(uuid "7d193505-d544-4c21-8919-766f26b77179")
+			(uuid "7d193505-d544-4c21-8919-766f26b7717d")
 		)
 		(pin "6"
-			(uuid "928afb33-012c-485b-a951-0c4d06b57f07")
+			(uuid "928afb33-012c-485b-a951-0c4d06b57f0b")
 		)
 		(pin "3"
-			(uuid "740560ad-2231-4749-a0a1-849f27780067")
+			(uuid "740560ad-2231-4749-a0a1-849f2778006b")
 		)
 		(pin "11"
-			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05b")
+			(uuid "8e7bf750-fd6f-4f41-a9c7-27aeda7af05f")
 		)
 		(pin "10"
-			(uuid "7c63007a-a793-4a1e-9802-25929ccc4005")
+			(uuid "7c63007a-a793-4a1e-9802-25929ccc4009")
 		)
 		(pin "15"
-			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48a")
+			(uuid "7cabc574-3cdc-4bcf-b84a-81aa7485a48e")
 		)
 		(pin "9"
-			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28ac")
+			(uuid "6dad3803-2f3e-4342-ba71-5f85f89b28b0")
 		)
 		(pin "13"
-			(uuid "6072f273-2fcc-4600-98c2-b899f94460d5")
+			(uuid "6072f273-2fcc-4600-98c2-b899f94460d9")
 		)
 		(pin "8"
-			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecef6")
+			(uuid "34ea05f4-481e-4362-a1b9-d1dcf40ecefa")
 		)
 		(instances
 			(project ""

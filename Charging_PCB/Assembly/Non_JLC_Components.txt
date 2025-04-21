@@ -1,0 +1,3 @@
+2 optocouplers - MOUSER # SFH617A-1X007T 
+1 - QUAD SR LATCH - MOUSER # 595-SN74LS279ADR 
+3 - Pin Socket connectors - MOUSER # 571-6419641
