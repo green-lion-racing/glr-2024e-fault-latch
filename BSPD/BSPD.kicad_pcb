@@ -13815,8 +13815,8 @@
 		(layer "Edge.Cuts")
 		(uuid "e0e327e4-38a2-4a34-b2fb-966b332fa8cc")
 	)
-	(gr_text "1)THROTTLE\n2)B.S.E."
-		(at 132.7 133.6 0)
+	(gr_text "1)THRTL SENSE\n2)B.S.E. SENSE\n"
+		(at 151.2 134.6 0)
 		(layer "F.SilkS" knockout)
 		(uuid "11b36f62-5c3a-477a-8703-5eff8b911643")
 		(effects
@@ -13827,14 +13827,26 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B.S.E"
-		(at 148.1 116.1 0)
+	(gr_text "HARD \nBREAK\n"
+		(at 159.7 113.1 90)
 		(layer "F.SilkS" knockout)
-		(uuid "562562e6-d7c4-42d2-b432-99511ab46fb9")
+		(uuid "41ad4c63-12a6-4314-b797-397688154deb")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1)THRTL MIN VOLTAGE\n2)B.S.E. MIN VOLTAGE\n"
+		(at 126.7 129.6 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7d6db68f-d5bd-4a12-84dd-60619109df7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -13847,18 +13859,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "THROTTLE"
-		(at 146.5 134.1 0)
-		(layer "F.SilkS" knockout)
-		(uuid "b004d002-4ae7-46f5-ada1-adfb09f96fd6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -13891,6 +13891,18 @@
 		(at 155.7 81.1 0)
 		(layer "F.SilkS" knockout)
 		(uuid "f3afda9e-0090-4562-a5e9-9eaa00207778")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "10%\nTHROTTLE\n"
+		(at 159.7 104.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "fea2c857-f449-4d8c-9740-f2336e816bdc")
 		(effects
 			(font
 				(size 1 1)
