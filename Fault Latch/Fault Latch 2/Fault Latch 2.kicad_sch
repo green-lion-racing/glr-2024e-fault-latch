@@ -5629,16 +5629,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 238.76) (xy 38.1 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c22357-9944-4caf-b6e4-ddfaf0938a38")
-	)
-	(wire
-		(pts
 			(xy 317.5 311.15) (xy 309.88 311.15)
 		)
 		(stroke
@@ -5857,16 +5847,6 @@
 			(type default)
 		)
 		(uuid "1b04e77f-6ff5-4a06-97d6-b60aa8ec46a7")
-	)
-	(wire
-		(pts
-			(xy 38.1 252.73) (xy 39.37 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de43392-d336-4374-a0a1-2f89136f18cf")
 	)
 	(wire
 		(pts
@@ -6511,6 +6491,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 252.73) (xy 39.37 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b85a14-3968-4103-82d8-8936909bf703")
+	)
+	(wire
+		(pts
 			(xy 209.55 95.25) (xy 209.55 96.52)
 		)
 		(stroke
@@ -6902,13 +6892,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 238.76) (xy 38.1 238.76)
+			(xy 38.1 227.33) (xy 38.1 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61817678-2e1f-4f7c-9aa1-e26b561e08a4")
+		(uuid "6285ef22-8185-46ce-8629-fe2ca9318f1e")
 	)
 	(wire
 		(pts
@@ -7120,16 +7110,6 @@
 			(type default)
 		)
 		(uuid "763ca02d-2022-4d18-844e-50994013ae44")
-	)
-	(wire
-		(pts
-			(xy 38.1 255.27) (xy 38.1 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7673ec5b-a5fa-4683-bb9d-214670ae2a73")
 	)
 	(wire
 		(pts
@@ -8656,6 +8636,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 240.03) (xy 38.1 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2584716-0dfe-40c3-9e45-31d5529e22be")
+	)
+	(wire
+		(pts
 			(xy 107.95 115.57) (xy 116.84 115.57)
 		)
 		(stroke
@@ -8733,16 +8723,6 @@
 			(type default)
 		)
 		(uuid "e6c4567a-86cb-4b0a-a0bc-48444f56762c")
-	)
-	(wire
-		(pts
-			(xy 38.1 262.89) (xy 38.1 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6cccd60-cab6-4220-97be-e0b7320c8280")
 	)
 	(wire
 		(pts
@@ -9166,7 +9146,7 @@
 		(uuid "09608e4a-4223-4758-b7d5-bd78530b0375")
 	)
 	(label "BSPD_HV"
-		(at 29.21 238.76 0)
+		(at 29.21 252.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12083,6 +12063,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 38.1 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31938209-d02d-4b14-accf-7c58ae96a05c")
+		(property "Reference" "#PWR0175"
+			(at 38.1 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 38.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 38.1 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47d0e226-6d52-46b5-bf80-7f07d95edbdc")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CONNECTOR:641964-1")
 		(at 151.13 308.61 180)
 		(unit 1)
@@ -14815,7 +14861,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 38.1 259.08 180)
+		(at 38.1 236.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14823,7 +14869,7 @@
 		(dnp no)
 		(uuid "65c1c97a-86b2-4bf3-9965-aefb1ab441a4")
 		(property "Reference" "R104"
-			(at 40.64 257.8099 0)
+			(at 40.64 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14832,7 +14878,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 40.64 260.3499 0)
+			(at 40.64 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14841,7 +14887,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 37.084 258.826 90)
+			(at 37.084 235.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14850,7 +14896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14859,7 +14905,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14868,7 +14914,7 @@
 			)
 		)
 		(property "JLC#" "C17414"
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14877,7 +14923,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14885,7 +14931,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +14939,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14901,7 +14947,7 @@
 			)
 		)
 		(property "MOUSER" ""
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14909,7 +14955,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 38.1 259.08 0)
+			(at 38.1 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,71 +15232,6 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 38.1 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a3bdf56-f1fb-472d-9b86-4af90f7173b2")
-		(property "Reference" "#PWR0105"
-			(at 38.1 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 38.1 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 38.1 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22d064ea-09cf-4c03-9643-fb907e2d35a2")
-		)
-		(instances
-			(project "Fault Latch 2"
-				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
