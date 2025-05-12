@@ -11176,7 +11176,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1222376"
+		(property "JLC#" ""
 			(at 203.2 197.4849 0)
 			(effects
 				(font
@@ -11210,7 +11210,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 817-FTR-LYAA005Y "
 			(at 191.77 195.58 0)
 			(effects
 				(font
@@ -11223,6 +11223,14 @@
 			(effects
 				(font
 					(size 0.381 0.381)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "https://www.mouser.com/ProductDetail/FCL-Components/FTR-LYAA005Y?qs=lEfYtVAeAoqtqRNkFkxQ7Q%3D%3D"
+			(at 191.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12386,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 55.88 232.41 0)
 			(effects
 				(font
@@ -12419,7 +12427,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 55.88 232.41 0)
 			(effects
 				(font
@@ -13503,7 +13511,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 157.48 323.85 0)
 			(effects
 				(font
@@ -13536,7 +13544,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 158.75 323.85 0)
 			(effects
 				(font
@@ -15852,7 +15860,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 58.42 170.18 0)
 			(effects
 				(font
@@ -15885,7 +15893,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 58.42 170.18 0)
 			(effects
 				(font
@@ -17313,10 +17321,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88747260-dc47-4053-ad72-6f0daec78ca2")
 		(property "Reference" "R112"
-			(at 104.14 302.2599 0)
+			(at 104.648 296.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17324,8 +17331,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500R"
-			(at 104.14 304.7999 0)
+		(property "Value" "510R"
+			(at 104.902 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17360,7 +17367,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C130232"
+		(property "JLC#" ""
 			(at 101.6 303.53 0)
 			(effects
 				(font
@@ -17378,6 +17385,14 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 101.6 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" "KTR03EZPF5100 "
 			(at 101.6 303.53 0)
 			(effects
 				(font
@@ -17637,7 +17652,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1222376"
+		(property "JLC#" ""
 			(at 201.93 128.9049 0)
 			(effects
 				(font
@@ -17671,7 +17686,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 817-FTR-LYAA005Y "
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -17684,6 +17699,14 @@
 			(effects
 				(font
 					(size 0.381 0.381)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "https://www.mouser.com/ProductDetail/FCL-Components/FTR-LYAA005Y?qs=lEfYtVAeAoqtqRNkFkxQ7Q%3D%3D"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -17955,7 +17978,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 209.55 168.91 0)
 			(effects
 				(font
@@ -17988,7 +18011,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 210.82 168.91 0)
 			(effects
 				(font
@@ -18074,7 +18097,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 38.1 115.57 0)
 			(effects
 				(font
@@ -18107,7 +18130,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 36.83 115.57 0)
 			(effects
 				(font
@@ -19282,7 +19305,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C130232"
+		(property "JLC#" ""
 			(at 231.14 297.18 0)
 			(effects
 				(font
@@ -19300,6 +19323,14 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 231.14 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" "ESR03EZPF2700 "
 			(at 231.14 297.18 0)
 			(effects
 				(font
@@ -20008,7 +20039,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 208.28 100.33 0)
 			(effects
 				(font
@@ -20041,7 +20072,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -23764,7 +23795,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C1222376"
+		(property "JLC#" ""
 			(at 190.5 251.206 0)
 			(effects
 				(font
@@ -23797,7 +23828,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" " 817-FTR-LYAA005Y "
 			(at 190.5 247.65 0)
 			(effects
 				(font
@@ -23806,6 +23837,14 @@
 			)
 		)
 		(property "Notes" ""
+			(at 190.5 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "https://www.mouser.com/ProductDetail/FCL-Components/FTR-LYAA005Y?qs=lEfYtVAeAoqtqRNkFkxQ7Q%3D%3D"
 			(at 190.5 247.65 0)
 			(effects
 				(font
@@ -24955,7 +24994,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC#" "C17590"
+		(property "JLC#" ""
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -24988,7 +25027,7 @@
 				)
 			)
 		)
-		(property "MOUSER" ""
+		(property "MOUSER" "ESR10EZPD1002"
 			(at 54.61 105.41 0)
 			(effects
 				(font
