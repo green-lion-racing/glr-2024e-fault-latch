@@ -4039,7 +4039,7 @@
 	)
 	(text_box "BMS_ChargingShutdown"
 		(exclude_from_sim no)
-		(at 21.59 31.75 0)
+		(at 24.13 36.83 0)
 		(size 195.58 119.38)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
