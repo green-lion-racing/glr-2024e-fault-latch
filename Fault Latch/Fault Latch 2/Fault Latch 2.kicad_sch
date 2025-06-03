@@ -5090,6 +5090,27 @@
 		)
 		(uuid "cb0574ee-6171-41bf-84df-66131ce66750")
 	)
+	(text_box "BMS LIGHT (NOT ON PCB, NEED TO BE ADDED LATER VIA BREADBORAD OR SMTH)"
+		(exclude_from_sim no)
+		(at 25.4 279.4 0)
+		(size 78.74 59.69)
+		(margins 1.0541 1.0541 1.0541 1.0541)
+		(stroke
+			(width 0.2032)
+			(type dash)
+			(color 255 0 30 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d1600805-4b2f-4457-af1c-719174d177b6")
+	)
 	(text_box "IMD"
 		(exclude_from_sim no)
 		(at 25.4 152.4 0)
@@ -5132,8 +5153,8 @@
 	)
 	(text_box "IMD LIGHT"
 		(exclude_from_sim no)
-		(at 97.79 280.67 0)
-		(size 86.36 73.66)
+		(at 107.95 279.4 0)
+		(size 78.74 59.69)
 		(margins 1.0541 1.0541 1.0541 1.0541)
 		(stroke
 			(width 0.2032)
@@ -5186,6 +5207,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "198aae1f-873d-4233-a75b-436d16e2acca")
+	)
+	(junction
+		(at 368.3 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c2aead8-48e2-4aaa-905b-98dd54e56496")
 	)
 	(junction
 		(at 54.61 119.38)
@@ -5266,12 +5293,6 @@
 		(uuid "5c0215a0-e9c7-4738-b961-5e546d88b4b9")
 	)
 	(junction
-		(at 368.3 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62b1997f-1399-4c00-bfe2-127235abd781")
-	)
-	(junction
 		(at 417.83 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5302,12 +5323,6 @@
 		(uuid "86b7ce30-2cfe-4274-8171-557c48b48fc4")
 	)
 	(junction
-		(at 388.62 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "888b7291-f12e-43f8-aa3a-1789febea866")
-	)
-	(junction
 		(at 295.91 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5318,6 +5333,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "903ff239-8a24-41ab-9c3e-f7ca6555d83b")
+	)
+	(junction
+		(at 388.62 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9147a125-13be-4757-9096-79405fc0a2f5")
 	)
 	(junction
 		(at 156.21 52.07)
@@ -5356,7 +5377,7 @@
 		(uuid "a3713eec-ce4a-4fec-aba2-0f1c48b546e4")
 	)
 	(junction
-		(at 158.75 328.93)
+		(at 168.91 321.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8d6b1e4-f8d7-471b-9faf-cc628d183d0c")
@@ -5500,6 +5521,12 @@
 		(uuid "e8b277cd-f5a7-4d15-97da-150d5c7db8cf")
 	)
 	(junction
+		(at 86.36 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb09fdbf-cb2f-4212-8d51-5b95fc8fc337")
+	)
+	(junction
 		(at 185.42 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5539,6 +5566,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 332.74) (xy 86.36 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00560d96-72bf-43b3-a880-a41200ab0dfb")
+	)
+	(wire
+		(pts
 			(xy 149.86 262.89) (xy 177.8 262.89)
 		)
 		(stroke
@@ -5559,6 +5596,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 321.31) (xy 91.44 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0537d2a1-7224-4c8d-99de-ad42b960c0d3")
+	)
+	(wire
+		(pts
 			(xy 54.61 252.73) (xy 55.88 252.73)
 		)
 		(stroke
@@ -5566,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "05a90746-e0cb-4771-87d5-a7705e6caf6b")
+	)
+	(wire
+		(pts
+			(xy 368.3 106.68) (xy 388.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bd8966-6308-49a3-981d-2f7cc47f9205")
 	)
 	(wire
 		(pts
@@ -5667,6 +5724,16 @@
 			(color 255 0 9 1)
 		)
 		(uuid "0ef2c284-b8c1-4407-a8af-70b9a5371d00")
+	)
+	(wire
+		(pts
+			(xy 86.36 311.15) (xy 86.36 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6bc9da-5a7e-499c-b346-13e4ec0dcfe3")
 	)
 	(wire
 		(pts
@@ -5820,6 +5887,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 320.04) (xy 86.36 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fcefd4-f5b6-42be-9271-6c08e4561baf")
+	)
+	(wire
+		(pts
 			(xy 214.63 359.41) (xy 214.63 363.22)
 		)
 		(stroke
@@ -5941,6 +6018,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 326.39) (xy 99.06 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2282dbea-a42f-4c83-8e36-913df188f864")
+	)
+	(wire
+		(pts
 			(xy 231.14 368.3) (xy 231.14 374.65)
 		)
 		(stroke
@@ -5991,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 335.28) (xy 151.13 335.28)
+			(xy 152.4 327.66) (xy 161.29 327.66)
 		)
 		(stroke
 			(width 0)
@@ -6058,6 +6145,26 @@
 			(type default)
 		)
 		(uuid "2a28f55b-aa72-4d2d-a11f-61d395a45df8")
+	)
+	(wire
+		(pts
+			(xy 388.62 119.38) (xy 388.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae2227b-725a-4652-8c65-14a5827141d0")
+	)
+	(wire
+		(pts
+			(xy 29.21 300.99) (xy 33.02 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcfd285-44b1-4ca7-967e-f350ee084a16")
 	)
 	(wire
 		(pts
@@ -6481,6 +6588,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 300.99) (xy 99.06 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443e519b-c5b2-4156-ae2b-444c6b32b5a2")
+	)
+	(wire
+		(pts
 			(xy 109.22 181.61) (xy 118.11 181.61)
 		)
 		(stroke
@@ -6772,6 +6889,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 327.66) (xy 78.74 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579dbc77-c5a1-41f6-b933-caeb1c4966ce")
+	)
+	(wire
+		(pts
 			(xy 356.87 106.68) (xy 368.3 106.68)
 		)
 		(stroke
@@ -6802,13 +6929,13 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 106.68) (xy 388.62 106.68)
+			(xy 391.16 109.22) (xy 391.16 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5971e115-1394-4e55-81ee-207b3da15f83")
+		(uuid "5955a01b-aa97-4798-a685-e122a3f6b198")
 	)
 	(wire
 		(pts
@@ -6902,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 327.66) (xy 158.75 328.93)
+			(xy 168.91 320.04) (xy 168.91 321.31)
 		)
 		(stroke
 			(width 0)
@@ -7083,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 334.01) (xy 171.45 341.63)
+			(xy 181.61 326.39) (xy 181.61 334.01)
 		)
 		(stroke
 			(width 0)
@@ -7223,7 +7350,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 308.61) (xy 171.45 308.61)
+			(xy 161.29 300.99) (xy 181.61 300.99)
 		)
 		(stroke
 			(width 0)
@@ -7343,6 +7470,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 288.29) (xy 29.21 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5c0a49-638f-4ed9-825f-e62ceecf9061")
+	)
+	(wire
+		(pts
 			(xy 107.95 59.69) (xy 107.95 63.5)
 		)
 		(stroke
@@ -7353,7 +7490,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 308.61) (xy 171.45 323.85)
+			(xy 181.61 300.99) (xy 181.61 316.23)
 		)
 		(stroke
 			(width 0)
@@ -7363,7 +7500,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 340.36) (xy 158.75 341.63)
+			(xy 168.91 332.74) (xy 168.91 334.01)
 		)
 		(stroke
 			(width 0)
@@ -7520,6 +7657,16 @@
 			(type default)
 		)
 		(uuid "982cee84-3c51-4ab3-8a6b-1c0b9cb59020")
+	)
+	(wire
+		(pts
+			(xy 86.36 321.31) (xy 86.36 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fa2665-261d-4ef8-bf62-2e5642fd5434")
 	)
 	(wire
 		(pts
@@ -7704,7 +7851,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 318.77) (xy 158.75 320.04)
+			(xy 168.91 311.15) (xy 168.91 312.42)
 		)
 		(stroke
 			(width 0)
@@ -8035,16 +8182,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 119.38) (xy 388.62 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd117ef9-6017-4b45-afa8-d1eb125179a2")
-	)
-	(wire
-		(pts
 			(xy 210.82 163.83) (xy 210.82 165.1)
 		)
 		(stroke
@@ -8082,6 +8219,16 @@
 			(type default)
 		)
 		(uuid "c1f443da-a177-416b-bf7f-38b634be451d")
+	)
+	(wire
+		(pts
+			(xy 99.06 300.99) (xy 99.06 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c205dd02-b0d9-4ce7-b232-ab1299e38f19")
 	)
 	(wire
 		(pts
@@ -8165,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 328.93) (xy 163.83 328.93)
+			(xy 168.91 321.31) (xy 173.99 321.31)
 		)
 		(stroke
 			(width 0)
@@ -8405,7 +8552,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 307.34) (xy 101.6 308.61)
+			(xy 111.76 299.72) (xy 111.76 300.99)
 		)
 		(stroke
 			(width 0)
@@ -8543,16 +8690,6 @@
 			(type default)
 		)
 		(uuid "db749f67-5fc7-471a-a2ca-4174cc903daf")
-	)
-	(wire
-		(pts
-			(xy 388.62 109.22) (xy 391.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf58aa3-7276-40d4-a40e-def29c8a1c02")
 	)
 	(wire
 		(pts
@@ -8786,7 +8923,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 308.61) (xy 105.41 308.61)
+			(xy 111.76 300.99) (xy 115.57 300.99)
 		)
 		(stroke
 			(width 0)
@@ -8826,6 +8963,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 299.72) (xy 29.21 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed11faad-4875-4893-8463-7d238cf6906d")
+	)
+	(wire
+		(pts
 			(xy 133.35 184.15) (xy 138.43 184.15)
 		)
 		(stroke
@@ -8856,7 +9003,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 295.91) (xy 101.6 299.72)
+			(xy 111.76 288.29) (xy 111.76 292.1)
 		)
 		(stroke
 			(width 0)
@@ -8996,6 +9143,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 109.22) (xy 391.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ba6abd-35ba-4f09-8bfd-4a28c4c6944d")
+	)
+	(wire
+		(pts
 			(xy 88.9 194.31) (xy 88.9 208.28)
 		)
 		(stroke
@@ -9013,16 +9170,6 @@
 			(type default)
 		)
 		(uuid "f7adec72-18be-4727-a6ed-1678ef040270")
-	)
-	(wire
-		(pts
-			(xy 391.16 109.22) (xy 391.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8213b5a-87c9-4d8f-94ac-4e92cd7b0f3b")
 	)
 	(wire
 		(pts
@@ -9107,7 +9254,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 328.93) (xy 158.75 330.2)
+			(xy 168.91 321.31) (xy 168.91 322.58)
 		)
 		(stroke
 			(width 0)
@@ -9256,7 +9403,7 @@
 		(uuid "4123ef48-55aa-49fa-8259-4cf94eea7e81")
 	)
 	(label "IMD_LED"
-		(at 142.24 335.28 0)
+		(at 152.4 327.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9384,6 +9531,16 @@
 			(justify right bottom)
 		)
 		(uuid "969f367c-a7cb-4c67-b78e-3e076e927415")
+	)
+	(label "BMS_GREEN"
+		(at 67.31 327.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2e016d5-e8a9-4816-9e94-0e8b08cfe5a1")
 	)
 	(label "THRESH"
 		(at 328.93 326.39 180)
@@ -10041,6 +10198,71 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 86.36 334.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07ea0fed-fb0d-4e9f-a3c1-ceed489b2a3d")
+		(property "Reference" "#PWR0178"
+			(at 86.36 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 86.36 337.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 86.36 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a14492fc-bda4-42e8-8ce3-5652cc6e6376")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -11841,7 +12063,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 158.75 318.77 0)
+		(at 168.91 311.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11850,7 +12072,7 @@
 		(fields_autoplaced yes)
 		(uuid "29fe63ff-805b-4b67-b310-7a865479a218")
 		(property "Reference" "#PWR0135"
-			(at 158.75 322.58 0)
+			(at 168.91 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +12081,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 158.75 313.69 0)
+			(at 168.91 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +12089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 318.77 0)
+			(at 168.91 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +12098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 318.77 0)
+			(at 168.91 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +12107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 318.77 0)
+			(at 168.91 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,7 +12360,7 @@
 	)
 	(symbol
 		(lib_id "CONNECTOR:641964-1")
-		(at 151.13 308.61 180)
+		(at 161.29 300.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12146,7 +12368,7 @@
 		(dnp yes)
 		(uuid "32c4ca13-fea4-494d-99ba-76e06837906e")
 		(property "Reference" "U108"
-			(at 126.9999 302.26 90)
+			(at 137.1599 294.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12155,7 +12377,7 @@
 			)
 		)
 		(property "Value" "641964-1"
-			(at 129.5399 302.26 90)
+			(at 139.6999 294.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12164,7 +12386,7 @@
 			)
 		)
 		(property "Footprint" "641964-1:TE_641964-1"
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12396,7 @@
 			)
 		)
 		(property "Datasheet" "641964-1"
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +12406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +12415,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12423,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +12431,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12439,7 @@
 			)
 		)
 		(property "MOUSER" "571-6419641 "
-			(at 127 308.61 0)
+			(at 137.16 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12225,7 +12447,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 151.13 308.61 0)
+			(at 161.29 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +13680,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 158.75 323.85 0)
+		(at 168.91 316.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13467,7 +13689,7 @@
 		(dnp no)
 		(uuid "4f5c10fb-414b-4617-aaa9-5bd131b0693b")
 		(property "Reference" "R121"
-			(at 151.638 325.628 0)
+			(at 161.798 318.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13698,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 152.146 323.088 0)
+			(at 162.306 315.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,7 +13707,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 157.734 324.104 90)
+			(at 167.894 316.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,7 +13716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13503,7 +13725,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,7 +13734,7 @@
 			)
 		)
 		(property "JLC#" ""
-			(at 157.48 323.85 0)
+			(at 167.64 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13521,7 +13743,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,7 +13751,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,7 +13759,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,7 +13767,7 @@
 			)
 		)
 		(property "MOUSER" "ESR10EZPD1002"
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13553,7 +13775,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 158.75 323.85 0)
+			(at 168.91 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13686,6 +13908,125 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 86.36 316.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5223b900-6bc0-40d6-9a53-64f134a468eb")
+		(property "Reference" "R136"
+			(at 79.248 318.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 79.756 315.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 85.344 316.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 86.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" ""
+			(at 85.09 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 86.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 86.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 86.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" "ESR10EZPD1002"
+			(at 77.47 311.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 86.36 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fe758775-0a57-4f65-846f-58f9de3ac39b")
+		)
+		(pin "1"
+			(uuid "7f4cd0b5-ef55-4ef5-9d07-e76beb50834a")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "R136")
 					(unit 1)
 				)
 			)
@@ -13938,6 +14279,105 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 96.52 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55e8c67a-8213-49b2-82de-2a9a000dd8de")
+		(property "Reference" "Q115"
+			(at 102.87 320.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 100.33 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 101.6 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 96.52 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" " C151421"
+			(at 96.52 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 96.52 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 96.52 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4d2ed775-4c49-434f-960c-c5c3f68649ad")
+		)
+		(pin "1"
+			(uuid "a262c0a3-c7e7-45c4-b6c2-657b3e72fd09")
+		)
+		(pin "2"
+			(uuid "3bf1b87c-72d4-42aa-8b4e-9f63baf816d8")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "Q115")
 					(unit 1)
 				)
 			)
@@ -14862,6 +15302,71 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 99.06 334.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65c12d81-c99e-4238-a61b-6d341723e077")
+		(property "Reference" "#PWR0179"
+			(at 99.06 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 98.806 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 99.06 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e583037-ac8d-4c54-abc9-65ceb35df198")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -16319,7 +16824,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 171.45 341.63 0)
+		(at 181.61 334.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16327,7 +16832,7 @@
 		(dnp no)
 		(uuid "78fd8a2f-8fbf-4b66-bfa6-bede61049b51")
 		(property "Reference" "#PWR0137"
-			(at 171.45 346.71 0)
+			(at 181.61 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16336,7 +16841,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 171.45 346.71 0)
+			(at 181.356 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16344,7 +16849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 342.9 0)
+			(at 181.61 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,7 +16858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 342.9 0)
+			(at 181.61 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,7 +16867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 171.45 341.63 0)
+			(at 181.61 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17076,6 +17581,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 29.21 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8561c41e-5efb-492a-a910-4ac551650ed7")
+		(property "Reference" "#PWR0176"
+			(at 29.21 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 29.21 284.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 29.21 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51bfa140-daa9-4924-90b9-b6a25b088f7e")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 139.7 102.87 0)
 		(mirror x)
@@ -17315,7 +17886,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 303.53 0)
+		(at 111.76 295.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17323,7 +17894,7 @@
 		(dnp no)
 		(uuid "88747260-dc47-4053-ad72-6f0daec78ca2")
 		(property "Reference" "R112"
-			(at 104.648 296.926 0)
+			(at 114.808 289.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17332,7 +17903,7 @@
 			)
 		)
 		(property "Value" "510R"
-			(at 104.902 300.99 0)
+			(at 115.062 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,7 +17912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.616 303.784 90)
+			(at 112.776 296.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17350,7 +17921,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8558359556762984448"
-			(at 101.6 303.53 0)
+			(at 111.76 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17359,7 +17930,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 303.53 0)
+			(at 111.76 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17368,7 +17939,7 @@
 			)
 		)
 		(property "JLC#" ""
-			(at 101.6 303.53 0)
+			(at 111.76 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17377,7 +17948,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 303.53 0)
+			(at 111.76 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17385,7 +17956,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 101.6 303.53 0)
+			(at 111.76 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17393,7 +17964,7 @@
 			)
 		)
 		(property "MOUSER" "KTR03EZPF5100 "
-			(at 101.6 303.53 0)
+			(at 109.728 294.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,6 +18162,73 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 86.36 311.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce35925-0493-470e-9241-342dee325e6e")
+		(property "Reference" "#PWR0177"
+			(at 86.36 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 86.36 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a1ec4b-5fe2-41fc-9705-353ca9398f03")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -18789,6 +19427,117 @@
 		)
 	)
 	(symbol
+		(lib_id "CONNECTOR:641964-1")
+		(at 78.74 300.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "954c0fde-f6ed-4756-ae67-af571efdfeed")
+		(property "Reference" "U123"
+			(at 54.6099 294.64 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "641964-1"
+			(at 57.1499 294.64 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "641964-1:TE_641964-1"
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "641964-1"
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" "571-6419641 "
+			(at 54.61 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 78.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbd971ac-e5c9-4b66-b588-7931bf4193b6")
+		)
+		(pin "2"
+			(uuid "21e99645-53f8-4088-a6d5-cc33037d1cd9")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "U123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 191.77 59.69 270)
 		(unit 1)
@@ -18907,7 +19656,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 168.91 328.93 0)
+		(at 179.07 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18915,7 +19664,7 @@
 		(dnp no)
 		(uuid "985ccf34-1a2e-4c0c-9e77-b0c37b1ac001")
 		(property "Reference" "Q106"
-			(at 175.26 327.6599 0)
+			(at 185.42 320.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18925,7 +19674,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 172.72 332.74 0)
+			(at 182.88 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18935,7 +19684,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 326.39 0)
+			(at 184.15 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18944,7 +19693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 328.93 0)
+			(at 179.07 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18953,7 +19702,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 168.91 328.93 0)
+			(at 179.07 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18962,7 +19711,7 @@
 			)
 		)
 		(property "JLC#" " C151421"
-			(at 168.91 328.93 0)
+			(at 179.07 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18971,7 +19720,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 168.91 328.93 0)
+			(at 179.07 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18979,7 +19728,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 168.91 328.93 0)
+			(at 179.07 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21996,7 +22745,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 156.21 335.28 0)
+		(at 166.37 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22004,7 +22753,7 @@
 		(dnp no)
 		(uuid "c52dbc79-2bd6-479b-a2c2-38d4ab2232a7")
 		(property "Reference" "Q105"
-			(at 162.56 334.0099 0)
+			(at 172.72 326.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22014,7 +22763,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 160.02 339.09 0)
+			(at 170.18 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22024,7 +22773,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 161.29 332.74 0)
+			(at 171.45 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22033,7 +22782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 335.28 0)
+			(at 166.37 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22042,7 +22791,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 156.21 335.28 0)
+			(at 166.37 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22051,7 +22800,7 @@
 			)
 		)
 		(property "JLC#" " C151421"
-			(at 156.21 335.28 0)
+			(at 166.37 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22060,7 +22809,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 156.21 335.28 0)
+			(at 166.37 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22068,7 +22817,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 156.21 335.28 0)
+			(at 166.37 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22095,7 +22844,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 158.75 341.63 0)
+		(at 168.91 334.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22103,7 +22852,7 @@
 		(dnp no)
 		(uuid "c533980a-5071-4b4e-acb5-41064301f42a")
 		(property "Reference" "#PWR0136"
-			(at 158.75 346.71 0)
+			(at 168.91 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22112,7 +22861,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 158.75 346.71 0)
+			(at 168.91 337.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22120,7 +22869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 342.9 0)
+			(at 168.91 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22129,7 +22878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 342.9 0)
+			(at 168.91 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22138,7 +22887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 158.75 341.63 0)
+			(at 168.91 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23433,6 +24182,108 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 29.21 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e99502-f0b6-4b0f-82ff-cb4f91daf261")
+		(property "Reference" "R135"
+			(at 32.258 289.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510R"
+			(at 31.242 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 30.226 296.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8558359556762984448"
+			(at 29.21 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 29.21 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" ""
+			(at 29.21 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 29.21 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 29.21 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" "KTR03EZPF5100 "
+			(at 27.178 294.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "374ee600-bddf-4fff-9211-c94196b98d85")
+		)
+		(pin "1"
+			(uuid "5cf88feb-906c-4adc-bb05-ec3395923fb0")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -25194,7 +26045,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 101.6 295.91 0)
+		(at 111.76 288.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25203,7 +26054,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9b1695e-5a8b-4a08-adb0-504336ad5d6a")
 		(property "Reference" "#PWR0125"
-			(at 101.6 299.72 0)
+			(at 111.76 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25212,7 +26063,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 101.6 290.83 0)
+			(at 111.76 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25220,7 +26071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 295.91 0)
+			(at 111.76 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25229,7 +26080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 295.91 0)
+			(at 111.76 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25238,7 +26089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 295.91 0)
+			(at 111.76 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25822,6 +26673,105 @@
 			(project "Fault Latch 2"
 				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
 					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 83.82 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef09d395-74ba-4cd3-9e9d-c22f9d21ec2c")
+		(property "Reference" "Q114"
+			(at 90.17 326.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 87.63 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 83.82 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC#" " C151421"
+			(at 83.82 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "50f5dcd9-64cf-4641-928f-f9345f65f964")
+		)
+		(pin "1"
+			(uuid "aae0d418-810a-4795-bf63-3b8739cafd8a")
+		)
+		(pin "2"
+			(uuid "a714eee2-5437-4202-be70-5d3573c1c5c0")
+		)
+		(instances
+			(project "Fault Latch 2"
+				(path "/478dd61d-7d78-47ee-b0a2-413879fe7325"
+					(reference "Q114")
 					(unit 1)
 				)
 			)

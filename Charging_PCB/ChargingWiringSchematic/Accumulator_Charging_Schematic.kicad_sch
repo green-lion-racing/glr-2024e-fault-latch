@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "6f922d61-c977-42d6-8550-7b21896d7733")
-	(paper "A3")
+	(paper "A2")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -2633,7 +2633,7 @@
 	)
 	(text_box "Important Notes!!!\nWire gauges are dependent on current magnitude,\nso for most of the signal connections to the BMS/IMD,\n22 AWG is fine, but for the charger 4pin which has 6A you need atleast 18AWG,\nAlso some wire sizes have a question mark, for example the +/- 12V powering the BMS/IMD is coming from the battery\nI havent found the current yet but it should be small enough to support 22 AWG.\nFor the HV components(orange wires) 1 AWG is used but i dont think its really necessary, I dont know how the wiring goes exactly past the HVIL but im assuming its also 1 AWG past the HVIL and AIRS\nalso i dont know what current the AIRS's inductor is rated for but i will find out later\n\n\nNote: max current from charger is 6A, this is both the high and low voltage leads, however the high voltage leads can support 50A"
 		(exclude_from_sim no)
-		(at 20.32 29.21 0)
+		(at 19.05 254 0)
 		(size 90.17 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3006,16 +3006,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 111.76) (xy 50.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46598aca-5ad4-497d-bf3c-add8a14f1da8")
-	)
-	(wire
-		(pts
 			(xy 223.52 151.13) (xy 284.48 151.13)
 		)
 		(stroke
@@ -3106,16 +3096,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 111.76) (xy 20.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66fa9723-cc57-4a9b-a349-769beb494fbb")
-	)
-	(wire
-		(pts
 			(xy 187.96 140.97) (xy 187.96 153.67)
 		)
 		(stroke
@@ -3203,6 +3183,16 @@
 			(type default)
 		)
 		(uuid "8678aa9c-53f7-492a-9ca8-dad15162a832")
+	)
+	(wire
+		(pts
+			(xy 20.32 111.76) (xy 20.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873067b9-53d8-447b-85ad-60a6bb2c0a58")
 	)
 	(wire
 		(pts
@@ -3606,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 91.44 113.03)
+			(xy 82.55 113.03) (xy 83.82 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 111.76) (xy 39.37 111.76)
+			(xy 20.32 111.76) (xy 50.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3684,7 +3674,7 @@
 		)
 		(uuid "0ed0c83a-5870-4d9b-8063-e4f3aeb9c073")
 	)
-	(label "22 AWG?"
+	(label "22 AWG"
 		(at 64.77 135.89 0)
 		(effects
 			(font
@@ -3695,7 +3685,7 @@
 		)
 		(uuid "118f315b-d4d9-44a9-8f26-07611ee67f92")
 	)
-	(label "1 AWG?"
+	(label "1 AWG"
 		(at 123.19 110.49 0)
 		(effects
 			(font
@@ -3797,7 +3787,7 @@
 		)
 		(uuid "3219e4d2-32bf-4016-ac55-e73b3c16b8b5")
 	)
-	(label "18AWG?"
+	(label "18AWG"
 		(at 55.88 92.71 0)
 		(effects
 			(font
@@ -3869,7 +3859,7 @@
 		)
 		(uuid "42192e19-1bf2-4de4-8c92-f2efb947575c")
 	)
-	(label "18AWG?"
+	(label "18AWG"
 		(at 55.88 123.19 0)
 		(effects
 			(font
@@ -4138,7 +4128,7 @@
 		)
 		(uuid "b0c7c66b-2aa5-48fc-8475-7a936f0a1ea3")
 	)
-	(label "1 AWG?"
+	(label "1 AWG"
 		(at 58.42 111.76 0)
 		(effects
 			(font
@@ -4160,7 +4150,7 @@
 		)
 		(uuid "b307de9c-ee3c-4b72-bd29-2988ca045200")
 	)
-	(label "1 AWG?"
+	(label "1 AWG"
 		(at 123.19 107.95 0)
 		(effects
 			(font
@@ -4202,7 +4192,7 @@
 		)
 		(uuid "c2cb9208-595c-4ab6-a5de-4563c561ebec")
 	)
-	(label "22 AWG?"
+	(label "22 AWG"
 		(at 64.77 140.97 0)
 		(effects
 			(font
@@ -4243,7 +4233,7 @@
 		)
 		(uuid "e29cc269-9697-4f42-a09a-bc05f34db4d3")
 	)
-	(label "1 AWG?"
+	(label "1 AWG"
 		(at 58.42 104.14 0)
 		(effects
 			(font
@@ -4563,73 +4553,6 @@
 			(project "Charging Relays"
 				(path "/6f922d61-c977-42d6-8550-7b21896d7733"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 43.18 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28dce1b4-bd4c-4751-a5bb-c0a819e69107")
-		(property "Reference" "125A"
-			(at 42.926 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 42.926 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 43.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a44d22c-6117-453a-a502-0f504be88cdf")
-		)
-		(pin "2"
-			(uuid "4aba28ac-81a7-4a3e-9404-0a46706fa2fc")
-		)
-		(instances
-			(project ""
-				(path "/6f922d61-c977-42d6-8550-7b21896d7733"
-					(reference "125A")
 					(unit 1)
 				)
 			)
@@ -5222,6 +5145,73 @@
 			(project ""
 				(path "/6f922d61-c977-42d6-8550-7b21896d7733"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 87.63 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e138dbfd-708c-4480-8811-a4993c61aa7b")
+		(property "Reference" "200A1"
+			(at 87.376 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 87.376 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 87.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d8dc4fc-9dd6-4afe-afc5-b9d27d9f4127")
+		)
+		(pin "2"
+			(uuid "a2b1a40f-2c3f-4bd6-8c52-5ac517f38b2d")
+		)
+		(instances
+			(project "Accumulator_Charging_Schematic"
+				(path "/6f922d61-c977-42d6-8550-7b21896d7733"
+					(reference "200A1")
 					(unit 1)
 				)
 			)
