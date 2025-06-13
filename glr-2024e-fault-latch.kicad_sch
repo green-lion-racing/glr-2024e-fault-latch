@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "478dd61d-7d78-47ee-b0a2-413879fe7325")
 	(paper "A2")
+	(title_block
+		(title "Fault latch for IMD and BMS/AMS")
+		(date "2025-06-13")
+		(rev "v3")
+		(company "Green Lion Racing")
+		(comment 1 "Alexander Wallrodt")
+	)
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)
