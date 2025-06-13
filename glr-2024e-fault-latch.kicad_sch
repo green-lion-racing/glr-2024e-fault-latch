@@ -10,6 +10,7 @@
 		(rev "v3")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
+		(comment 2 "JacobParent7")
 	)
 	(lib_symbols
 		(symbol "+5V_1"

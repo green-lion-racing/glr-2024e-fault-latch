@@ -1,58 +1,28 @@
-Download git
+# Fault latch for IMD and BMS/AMS
 
-Create a token in github so you can pull the repository in git bash
+This board is a fork of [JacobParent7/FSAE_ELECTRONICS](https://github.com/JacobParent7/FSAE_ELECTRONICS/tree/main/Fault%20Latch). Thanks!
 
-------------------------
+### Overview
 
-INSIDE GIT BASH TERMINAL
+It is stripped down for our purposes of using it just as a fault latch if either IMD or BMS signal an error. So it can open and close the SDC (Shutdown circuit).
 
-git clone https://github.com/JacobParent7/FSAE_ELECTRONICS.git
+As input it needs +12V and GND. It also takes a high input of both IMD and BMS to register a fault.
 
-cd FSAE_ELECTRONICS
+It has two outputs for LEDs, these go into the cockpit of the car, to signal issues to the driver.
 
-right click on FSAE_ELECTRONICS in git bash terminal to open file location and find KiCAD project
+Lastly there is one connection where the SDC is routed through.
 
-------------------------
+### Used parts
 
-MAKE ALL EDITS TO LOCAL COPY HERE
+> [!WARNING]  
+> Part list is not available currently.
 
-------------------------
+| Article | Description | Link | Quantity |
+| ------- | ----------- | ---- | -------- |
+|         |             |      |          |
+|         |             |      |          |
+|         |             |      |          |
+|         |             |      |          |
+|         |             |      |          |
 
-OPEN GIT BASH TERMINAL WHEN FINISHED
-
-cd FSAE_ELECTRONICS/
-
-git checkout -b "Branch Name"
-
-git add .
-
-git commit -m "Description of work done in commit"
-
-git push -u origin "Branch Name"
-
-DELETE LOCAL COPY
-
-------------------------
-
-REPEAT
-
-------------------------
-
-TO MERGE:
-
-go to branches tab
-
-go to branches that you push
-
-make a pull request
-
-go into pull request
-
-marge if no issues
-
-delete branch 
-
-# FAULT LATCH
-
-![FaultLatch](https://github.com/user-attachments/assets/3dcf80d5-223d-454f-9a48-82ccf43e8bfd)
 
